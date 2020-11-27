@@ -1,0 +1,22 @@
+<head>
+  <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }}｜{{ .Site.Title }}{{ end }}</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.desc }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{ .Site.Author.twitter }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.desc }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+  <meta property="og:image" content="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" />
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }}｜{{ .Site.Title }}{{ end }}" />
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}/img/favicon.ico" />
+  <link rel="stylesheet" href="{{ (resources.Get "tailwind.css" | toCSS | minify | fingerprint).Permalink }}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+  {{ template "_internal/google_analytics_async.html" . }}
+  <style>
+
+  </style>
+</head>

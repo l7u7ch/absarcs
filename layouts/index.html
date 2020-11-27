@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="w-full">
+  <div class="bg-white mb-4 py-3 rounded-lg shadow text-center text-sm">
+    <span class="mr-1">最新記事</span>
+    {{ len .Site.RegularPages }}
+    件
+  </div>
+  <div class="grid gap-4 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 mb-4">
+    {{ range (.Paginate ( .Pages.ByLastmod.Reverse )).Pages }}
+    {{ .Render "list" }}
+    {{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+</main>
+{{ end }}
+
+{{ define "aside" }}
+{{ partial "profile-card.html" . }}
+{{ partial "article-list.html" . }}
+{{ partial "tag-list.html" . }}
+{{ end }}

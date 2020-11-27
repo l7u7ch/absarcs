@@ -1,0 +1,41 @@
+<div class="flex justify-center">
+  {{ if .Paginator.HasPrev }}
+  <a class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.First.URL }}">
+    <i class="fas fa-angle-double-left fa-fw"></i>
+  </a>
+  {{ else }}
+  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+    <i class="fas fa-angle-double-left fa-fw"></i>
+  </span>
+  {{ end }}
+  {{ if .Paginator.HasPrev }}
+  <a class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.Prev.URL }}">
+    <i class="fas fa-angle-left fa-fw"></i>
+  </a>
+  {{ else }}
+  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+    <i class="fas fa-angle-left fa-fw"></i>
+  </span>
+  {{ end }}
+  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+    {{ .Paginator.PageNumber }}/{{ .Paginator.TotalPages }}
+  </span>
+  {{ if .Paginator.HasNext }}
+  <a class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.Next.URL }}">
+    <i class="fas fa-angle-right fa-fw"></i>
+  </a>
+  {{ else }}
+  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+    <i class="fas fa-angle-right fa-fw"></i>
+  </span>
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+  <a class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.Last.URL }}">
+    <i class="fas fa-angle-double-right fa-fw"></i>
+  </a>
+  {{ else }}
+  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+    <i class="fas fa-angle-double-right fa-fw"></i>
+  </span>
+  {{ end }}
+</div>

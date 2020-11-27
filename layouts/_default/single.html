@@ -1,0 +1,69 @@
+{{ define "main" }}
+<main class="max-w-3xl w-full">
+  <article class="bg-white mb-4 md:p-6 p-3 rounded-lg">
+    <!-- Tag -->
+    {{ if .Params.tags }}
+    <div class="mb-8">
+      {{ range .Params.tags }}
+      <a class="border duration-500 hover:bg-primary hover:border-primary hover:text-white px-3 py-1 mr-2 rounded-full text-sm" href="/tags/{{ lower . }}">
+        {{ . }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+    <!-- /Tag -->
+    <!-- Title -->
+    <h1 class="text-2xl text-secondary mb-8 font-medium">
+      {{ .Title }}
+    </h1>
+    <!-- /Title -->
+    <!-- Date -->
+    <div class="float-right mb-8">
+      <span class="mr-2">
+        <i class="far fa-calendar-alt fa-fw"></i>
+        </i>{{ .Date.Format "2006/01/02" }}
+      </span>
+      <span>
+        <i class="fas fa-sync-alt fa-fw"></i>
+        {{ .Lastmod.Format "2006/01/02" }}
+      </span>
+    </div>
+    <!-- /Date -->
+    <!-- Thumbnail -->
+    <img class="rounded-lg w-full mb-8" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+    <!-- /Thumbnail -->
+    <!-- Social Button -->
+    <div class="mb-12">
+      {{ partial "social-btn.html" . }}
+    </div>
+    <!-- /Social Button -->
+    <!-- Content -->
+    <div class="content mb-8">
+      {{ $content := .Content }}
+      {{ range findRE "id=\".+?\"" .Content }}
+      {{ $hash := . | replaceRE "id=\"" "" | replaceRE "\"" "" | md5 }}
+      {{ $content = $content | replaceRE . (print "id=\"_" $hash "\"") }}
+      {{ end }}
+      {{ range findRE "href=\"#.+?\"" $content }}
+      {{ $hash := . | replaceRE "href=\"" "" | replaceRE "\"" "" | replaceRE "#" "" | md5 }}
+      {{ $content = $content | replaceRE . (print "href=\"#_" $hash "\"") }}
+      {{ end }}
+      {{ $content | safeHTML }}
+    </div>
+    <!-- /Content -->
+    <!-- Social Button -->
+    <div>
+      {{ partial "social-btn.html" . }}
+    </div>
+    <!-- /Social Button -->
+  </article>
+</main>
+{{ end }}
+
+{{ define "aside" }}
+{{ partial "profile-card.html" . }}
+<div class="sticky top-0">
+  {{ partial "toc.html" . }}
+  {{ partial "article-list.html" . }}
+</div>
+{{ end }}

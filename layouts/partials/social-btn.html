@@ -1,0 +1,17 @@
+<div class="flex text-center text-white">
+  <a class="rounded-l-lg py-2 w-full bg-facebook hover:bg-white border-facebook border hover:text-facebook duration-500" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}&t={{ .Title }}｜{{ .Site.Title }}" target="_blank" rel="noopener">
+    <i class="fab fa-facebook-f fa-fw"></i>
+  </a>
+  <a class="py-2 w-full bg-twitter hover:bg-white border-twitter border hover:text-twitter duration-500" href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}｜{{ .Site.Title }}{{ with .Site.Author.twitter }}&via={{ . }}{{ end }}" target="_blank" rel="noopener">
+    <i class="fab fa-twitter fa-fw"></i>
+  </a>
+  <a class="py-2 w-full bg-pocket hover:bg-white border-pocket border hover:text-pocket duration-500" href="http://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}｜{{ .Site.Title }}" target="_blank" rel="noopener">
+    <i class="fab fa-get-pocket fa-fw"></i>
+  </a>
+  <a class="py-2 w-full bg-hatena hover:bg-white border-hatena border hover:text-hatena duration-500" href="http://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ .Title }}｜{{ .Site.Title }}" target="_blank" rel="noopener">
+    <i class="fab fa-hatena fa-fw"></i>
+  </a>
+  <a class="rounded-r-lg py-2 w-full bg-rss hover:bg-white border-rss border hover:text-rss duration-500" href="{{ .Site.BaseURL }}/index.xml" target="_blank" rel="noopener">
+    <i class="fas fa-rss fa-fw"></i>
+  </a>
+</div>

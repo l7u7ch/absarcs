@@ -1,0 +1,16 @@
+<header class="bg-secondary mb-4 shadow text-white">
+  <div class="container flex justify-between items-center mx-auto p-4">
+    <a href="{{ .Site.BaseURL }}" class="duration-500 font-bold hover:text-primary text-2xl">
+      {{ if .IsNode }}
+      <h1>
+        {{ .Site.Title }}
+      </h1>
+      {{ else }}
+      {{ .Site.Title }}
+      {{ end }}
+    </a>
+    <a href="https://github.com/" target="_blank" rel="noopener" class="hover:text-primary duration-500">
+      <i class=" fab fa-github fa-fw fa-lg"></i>
+    </a>
+  </div>
+</header>

@@ -1,0 +1,35 @@
+# baseURL = "https://absarcs.info"
+baseURL = "https://youthful-beaver-3b31c3.netlify.app/"
+enableRobotsTXT = true
+googleAnalytics = "UA-151184294-1"
+hasCJKLanguage = true
+languageCode = "ja-jp"
+paginate = 12
+summaryLength = 140
+title = "Abstract Archives"
+
+[author]
+  name = "Dutch"
+  desc = "コンピュータサイエンスを専攻している大学院生です。研究の合間に，アニメを観たりブログサイトを運営しながら生きています。"
+  github = "l7u7ch"
+  twitter = "l7u7ch"
+  mail = "user45342959+ixlxqbmdwaaypv7xk9j1@boards.trello.com"
+
+[params]
+  desc = "本サイトは，『未来の自分と見知らぬ誰かのために役立つ記事』をコンセプトに運営しているブログサイトです。また，本サイトは複数の FLOSS (Font Awesome・Hugo・UIkit) によって構成されており，Netlify にホスティングされています。"
+  tagLength = 8
+  googleAdsClientID = "ca-pub-2369270801912255"
+  googleAdsUnitID = "5274132935"
+
+[related]
+  threshold = 0
+  includeNewer = true
+  [[related.indices]]
+    name = "tags"
+    weight = 2
+  [[related.indices]]
+    name = "date"
+    weight = 1
+
+[taxonomies]
+  tag = "tags"
