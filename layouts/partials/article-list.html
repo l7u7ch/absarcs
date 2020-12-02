@@ -9,7 +9,7 @@
       {{ range .Site.RegularPages.Related . | first 5 }}
       <li>
         <a href="{{ .Permalink }}" class="content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-          <img class="h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+          <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
           <div class="duration-500 group-hover:text-white text-sm">
             {{ .Title }}
           </div>
@@ -24,7 +24,7 @@
       {{ range .Site.RegularPages.ByWeight | first 5 }}
       <li>
         <a href="{{ .Permalink }}" class="content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-          <img class="h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+          <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
           <div class="duration-500 group-hover:text-white text-sm">
             {{ .Title }}
           </div>
@@ -39,7 +39,7 @@
       {{ range .Site.RegularPages.ByLastmod.Reverse | first 5 }}
       <li>
         <a href="{{ .Permalink }}" class="content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-          <img class="h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+          <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
           <div class="duration-500 group-hover:text-white text-sm">
             {{ .Title }}
           </div>
