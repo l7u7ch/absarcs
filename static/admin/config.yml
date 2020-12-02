@@ -9,10 +9,12 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content'
-    path: '{{slug}}/index'
     create: true
+    slug: '{{fields.slug}}'
+    path: '{{slug}}/index'
     fields:
+      - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Last Modified Date', name: 'lastmod', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
