@@ -8,6 +8,7 @@ collections:
     label: 'Blog'
     folder: 'content'
     create: true
+    format: toml-frontmatter
     slug: '{{fields.slug}}'
     path: '{{slug}}/index'
     fields:
