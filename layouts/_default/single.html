@@ -30,7 +30,7 @@
     </div>
     <!-- /Date -->
     <!-- Thumbnail -->
-    <img class="rounded-lg w-full mb-8" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+    <img class="border mb-8 rounded-lg w-full" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
     <!-- /Thumbnail -->
     <!-- Social Button -->
     <div class="mb-8">
