@@ -2,8 +2,8 @@
 slug = "769fc94c8c83c3fb357bfdc935020421"
 image = "ea605533f27dd2db1ac6574e417a66f2.png"
 title = "情報処理学会に関連する論文・催事まとめ"
-date = 2020-12-02T04:03:43.434Z
-lastmod = 2020-12-02T04:03:44.203Z
+date = 2020-11-11T04:03:43.434Z
+lastmod = 2020-11-26T04:03:44.203Z
 tags = ["Academic", "IPSJ"]
 weight = 0
 googleAds = true
