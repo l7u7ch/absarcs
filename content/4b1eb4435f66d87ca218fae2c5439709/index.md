@@ -1,9 +1,11 @@
 +++
+slug = "4b1eb4435f66d87ca218fae2c5439709"
 image = "87723fff3efdb01577cd12d8b5501cfe-min.png"
 title = "JavaScript 製の広告ブロック検知ライブラリ BlockAdBlock の使い方"
 date = "2020-03-08T22:31:00+09:00"
-lastmod = "2020-03-12T06:46:00+09:00"
-tags = [ "JavaScript", "Library", "Web" ]
+lastmod = 2020-12-02T06:18:05.451Z
+tags = ["JavaScript", "Library", "Web"]
+weight = 0
 googleAds = true
 +++
 
