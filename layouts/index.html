@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="w-full">
+<main class="mb-4 w-full">
   <div class="bg-white mb-4 py-3 rounded-lg shadow text-center text-sm">
     <span class="mr-1">最新記事</span>
     {{ len .Site.RegularPages }}
@@ -12,10 +12,7 @@
   </div>
   {{ partial "pagination.html" . }}
 </main>
-{{ end }}
-
-{{ define "aside" }}
-<aside class="hidden max-w-xs w-full xl:inline-block">
+<aside class="hidden max-w-xs mb-4 w-full xl:inline-block">
   {{ partial "profile-card.html" . }}
   {{ partial "article-list.html" . }}
   {{ partial "tag-list.html" . }}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="w-full">
+<main class="mb-4 w-full">
   <div class="bg-white mb-4 py-3 rounded-lg shadow text-center text-sm">
     {{ $title := .Title }}
     {{ $count := 0 }}
@@ -8,6 +8,9 @@
     {{ $count = .Count }}
     {{ end }}
     {{ end }}
+    <span class="mr-1">{{ $title }}</span>
+    {{ $count }}
+    件
   </div>
   <div class="grid gap-4 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 mb-4">
     {{ range (.Paginate ( .Pages.ByLastmod.Reverse )).Pages }}
@@ -16,10 +19,7 @@
   </div>
   {{ partial "pagination.html" . }}
 </main>
-{{ end }}
-
-{{ define "aside" }}
-<aside class="hidden max-w-xs w-full xl:inline-block">
+<aside class="hidden max-w-xs mb-4 w-full xl:inline-block">
   {{ partial "profile-card.html" . }}
   {{ partial "article-list.html" . }}
   {{ partial "tag-list.html" . }}

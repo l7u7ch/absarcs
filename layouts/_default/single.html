@@ -1,6 +1,6 @@
 {{ define "main" }}
-<main class="max-w-3xl w-full">
-  <article class="bg-white mb-4 md:p-6 p-3 rounded-lg">
+<main class="max-w-3xl w-full mb-4">
+  <article class="bg-white md:p-6 p-3 rounded-lg">
     <!-- Tag -->
     {{ if .Params.tags }}
     <div class="mb-8">
@@ -33,7 +33,7 @@
     <img class="rounded-lg w-full mb-8" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
     <!-- /Thumbnail -->
     <!-- Social Button -->
-    <div class="mb-12">
+    <div class="mb-8">
       {{ partial "social-btn.html" . }}
     </div>
     <!-- /Social Button -->
@@ -57,15 +57,32 @@
     </div>
     <!-- /Social Button -->
   </article>
+  <!-- Google AdSense -->
+  {{ if and .Site.Params.googleAdsClientID .Site.Params.googleAdsUnitID .Params.googleAds }}
+  <aside class="mb-4">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </aside>
+  {{ end }}
+  <!-- /Google AdSense -->
 </main>
-{{ end }}
-
-{{ define "aside" }}
-<aside class="hidden max-w-xs w-full xl:inline-block">
+<aside class="hidden max-w-xs w-full xl:inline-block mb-4">
   {{ partial "profile-card.html" . }}
   <div class="sticky top-0">
     {{ partial "toc.html" . }}
     {{ partial "article-list.html" . }}
+    <!-- Google AdSense -->
+    {{ if and .Site.Params.googleAdsClientID .Site.Params.googleAdsUnitID .Params.googleAds }}
+    <aside class="mb-4">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </aside>
+    {{ end }}
+    <!-- /Google AdSense -->
   </div>
 </aside>
 {{ end }}
