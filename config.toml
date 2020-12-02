@@ -7,6 +7,7 @@ languageCode = "ja-jp"
 paginate = 12
 summaryLength = 140
 title = "Abstract Archives"
+enableGitInfo = false
 
 [author]
   name = "Dutch"
@@ -33,9 +34,3 @@ title = "Abstract Archives"
 
 [taxonomies]
   tag = "tags"
-
-[frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = ["lastmod", "date", "publishDate"]
-publishDate = ["publishDate", "date"]
-expiryDate = ["expiryDate"]
