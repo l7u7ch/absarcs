@@ -19,7 +19,9 @@
 {{ end }}
 
 {{ define "aside" }}
-{{ partial "profile-card.html" . }}
-{{ partial "article-list.html" . }}
-{{ partial "tag-list.html" . }}
+<aside class="hidden max-w-xs w-full xl:inline-block">
+  {{ partial "profile-card.html" . }}
+  {{ partial "article-list.html" . }}
+  {{ partial "tag-list.html" . }}
+</aside>
 {{ end }}
