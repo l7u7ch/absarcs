@@ -9,7 +9,7 @@
   <ul>
     {{ range .Site.Taxonomies.tags.ByCount | first .Site.Params.tagLength }}
     <li>
-      <a class="duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2" href="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
+      <a class="border-b duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2" href="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
         <span class="group-hover:text-white duration-500">
           {{ .Page.Title }}
         </span>
@@ -18,7 +18,6 @@
         </span>
       </a>
     </li>
-    <hr>
     {{ end }}
     <li>
       <button class="duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2 w-full" @click="show = true" x-show="!show">
@@ -34,7 +33,7 @@
   <ul x-show="show">
     {{ range .Site.Taxonomies.tags.ByCount | last (sub (len .Site.Taxonomies.tags) .Site.Params.tagLength) }}
     <li>
-      <a class="duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2" href="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
+      <a class="border-b duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2" href="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
         <span class="group-hover:text-white duration-500">
           {{ .Page.Title }}
         </span>
@@ -43,7 +42,6 @@
         </span>
       </a>
     </li>
-    <hr>
     {{ end }}
     <li>
       <button class="duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2 w-full" @click="show = false" x-show="show">
@@ -60,7 +58,7 @@
   <ul>
     {{ range .Site.Taxonomies.tags.ByCount  }}
     <li>
-      <a class="duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2" href="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
+      <a class="border-b duration-500 flex group hover:bg-secondary items-center justify-between px-4 py-2" href="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
         <span class="group-hover:text-white duration-500">
           {{ .Page.Title }}
         </span>
@@ -69,7 +67,6 @@
         </span>
       </a>
     </li>
-    <hr>
     {{ end }}
   </ul>
   {{ end }}
