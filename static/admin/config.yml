@@ -3,6 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
 show_preview_links: true
 collections:
   - name: 'blog'
@@ -10,9 +11,9 @@ collections:
     folder: 'content'
     path: '{{slug}}'
     create: true
-    slug: 'index.md'
+    slug: 'index'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
