@@ -7,10 +7,10 @@ show_preview_links: true
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
-    path: '{{year}}/{{slug}}'
+    folder: 'content'
+    path: '{{slug}}'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: 'index.md'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
