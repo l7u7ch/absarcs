@@ -1,5 +1,4 @@
-# baseURL = "https://absarcs.info"
-baseURL = "https://youthful-beaver-3b31c3.netlify.app/"
+baseURL = "https://absarcs.info"
 enableRobotsTXT = true
 googleAnalytics = "UA-151184294-1"
 hasCJKLanguage = true
