@@ -33,3 +33,9 @@ title = "Abstract Archives"
 
 [taxonomies]
   tag = "tags"
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
