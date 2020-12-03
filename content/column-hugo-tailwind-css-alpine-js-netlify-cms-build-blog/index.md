@@ -1,8 +1,8 @@
 +++
-slug = "column-hugo-tailwind-css-alpine-js-netlify-cms-build-jamstack-blog-site"
+slug = "column-hugo-tailwind-alpine-netlify-cms-build-jamstack-blog"
 image = "cfc29025d9a0575216282544e099e8d0.png"
 title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの構築"
-publishDate = 2020-12-02T21:10:23.241Z
+publishDate = 2020-12-03T16:57:01.472Z
 lastmod = ""
 tags = ["Column", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
@@ -21,7 +21,11 @@ googleAds = true
 
 [![Hugo](95a8716b0089229bb8afced7b37a656c.png)](https://gohugo.io/)
 
-　Hugo は，
+　Hugo は，Go 言語製の静的サイトジェネレーターであり，静的サイトジェネレーターの中でもトップクラスの[人気](https://jamstack.org/generators/)と[パフォーマンス](https://qiita.com/tnzk/items/4863e2c559f6b71b72e0#%E6%A4%9C%E8%A8%BC%E7%B5%90%E6%9E%9C)が特徴的です。
+
+要求分析の段階では，Go 言語製の静的サイトジェネレーターということもあり，Go 言語に関する知識が必要になるかもしれないという懸念点がありました。しかし，ブログサイトを構築する分には Go 言語の知識が必要になる場面は存在しませんでした。
+
+Hugo は Go 言語標準のテンプレートエンジンや組み込み関数を用いているため，Go 言語の知識があればスムーズに学習と開発が行えると思います。
 
 ## Tailwind CSS
 
