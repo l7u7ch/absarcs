@@ -1,5 +1,6 @@
 +++
 slug = "column-hugo-tailwind-css-alpine-js-netlify-cms-build-jamstack-blog-site"
+image = "cfc29025d9a0575216282544e099e8d0.png"
 title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの構築"
 publishDate = 2020-12-02T21:10:23.241Z
 lastmod = ""
