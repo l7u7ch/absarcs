@@ -1,10 +1,10 @@
 +++
-slug = "column-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"
+slug = "survey-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"
 image = "cfc29025d9a0575216282544e099e8d0.png"
 title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの開発後記"
 publishDate = 2020-12-03T16:57:01.472Z
 lastmod = ""
-tags = ["Column", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
+tags = ["Survey", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
 draft = false
 googleAds = true
@@ -13,9 +13,7 @@ googleAds = true
 
 　本ブログサイトは，Go 言語製の静的サイトジェネレーターである Hugo とユーティリティ指向の CSS フレームワークである Tailwind CSS，軽量型の JavaScript フレームワークである Alpine.js，Netlify 社が提供している静的ウェブサイトである Netlify，同じく Netlify 社が提供しているヘッドレス CMS である Netlify CMS を用いて構築しています。
 
-　これらのソフトウェアやサービスは，Hugo と Gastby.js，Tailwind CSS と Boostrap，Alpine.js と Vue.js，Netlify と Vercel，Netlify CMS と microCMS など，類似するものが多く存在します。これらのソフトウェアやサービスから，自分に適したソフトウェアやサービスを比較，選択するのは大きな労力がかかります。
-
-　そこで，本記事では JAMStack なブログサイトを構築，もしくは運用しようと考えている人に向け，上記のソフトウェアとサービスの概要，選択した理由，使用した感想などを記述します。
+　開発の過程において，JAMStack なブログサイトの開発で頻繁に用いられているソフトウェアとサービスを可能な限り調査しました。そこで，本記事では JAMStack なブログサイトを構築，もしくは運用しようと考えている人に向け，上記のソフトウェアとサービスの概要，選択した理由，使用した感想などを記述します。具体的な使用方法や運用手順は割愛しているのでご了承下さい。
 
 ## 2. Hugo
 
@@ -47,7 +45,13 @@ Hugo は Go 言語標準のテンプレートエンジンや組み込み関数�
 
 ## 5. Netlify CMS
 
-　XXX
+[![Netlify CMS](bcc35f2c28064277c42b4f60a0b988e8.png)](https://www.netlifycms.org/)
+
+　Netlify CMS は，Netlify 社が提供しているヘッドレス CMS であり，対応している[静的サイトジェネレーター](https://www.netlifycms.org/docs/start-with-a-template/)と組み合わせることによって，[WordPress](https://wordpress.org/) のように Web 上から記事の作成や編集，投稿を行うことが出来ます。Netlify CMS の他にも数多くの[ヘッドレス CMS](https://jamstack.org/headless-cms/) が存在していますが，公式で Hugo が対応している点と既に静的ウェブサイトホスティングサービスの Netlify を愛用していた点から Netlify CMS を採用しました。
+
+　結果的に，記事の作成や編集，投稿のタイミングで発生する Git コマンドの入力省略，Netlify CMS Editor による Markdown の記述効率化，
+
+に記述することが出来，
 
 ## 6. おわりに
 
