@@ -19,11 +19,11 @@ googleAds = true
 
 [![Hugo](95a8716b0089229bb8afced7b37a656c.png)](https://gohugo.io/)
 
-　Hugo は，Go 言語製の静的サイトジェネレーターであり，静的サイトジェネレーターの中でもトップクラスの[人気](https://jamstack.org/generators/)と[パフォーマンス](https://qiita.com/tnzk/items/4863e2c559f6b71b72e0#%E6%A4%9C%E8%A8%BC%E7%B5%90%E6%9E%9C)が特徴的です。
+　Hugo は，Go 言語製の静的サイトジェネレーターであり，静的サイトジェネレーターの中でもトップクラスの[人気](https://jamstack.org/generators/)と[パフォーマンス](https://qiita.com/tnzk/items/4863e2c559f6b71b72e0#%E6%A4%9C%E8%A8%BC%E7%B5%90%E6%9E%9C)が特徴的です。同じく人気の静的サイトジェネレーターとして [Next.js](https://nextjs.org/) と [Gatsby](http://gatsbyjs.org/) が挙げられます。Next.js は Gatsby は，簡単に [AMP](https://developers.google.com/amp) や [GraphQL](https://graphql.org/) などの最新技術に対応することができ，Hugo より表現力が豊かです。しかし，要件分析の時点で Markdown をベースとした運用を想定していた点とビルドのパフォーマンスから最終的に Hugo を採用することにしました。
 
-要求分析の段階では，Go 言語製の静的サイトジェネレーターということもあり，Go 言語に関する知識が必要になるかもしれないという懸念点がありました。しかし，ブログサイトを構築する分には Go 言語の知識が必要になる場面は存在しませんでした。
+　要求分析の段階では，Go 言語製の静的サイトジェネレーターであり，Go 言語標準のテンプレートエンジンや組み込み関数を用いているため，Go 言語に関する固有の知識が必要になるかもしれないという懸念点がありました。しかし，ブログサイトを構築する分には Go 言語固有の知識が必要になる場面は存在しませんでした。
 
-Hugo は Go 言語標準のテンプレートエンジンや組み込み関数を用いているため，Go 言語の知識があればスムーズに学習と開発が行えると思います。
+　また，[Pagination](https://gohugo.io/templates/pagination/) や [Table of Contents](https://gohugo.io/content-management/toc/) など，ブログサイトに必要な機能は標準で実装されているため，開発過程で Hugo 本体のソースコードを改変する場面も発生しませんでした。
 
 ## 3. Tailwind CSS
 
@@ -49,10 +49,8 @@ Hugo は Go 言語標準のテンプレートエンジンや組み込み関数�
 
 　Netlify CMS は，Netlify 社が提供しているヘッドレス CMS であり，対応している[静的サイトジェネレーター](https://www.netlifycms.org/docs/start-with-a-template/)と組み合わせることによって，[WordPress](https://wordpress.org/) のように Web 上から記事の作成や編集，投稿を行うことが出来ます。Netlify CMS の他にも数多くの[ヘッドレス CMS](https://jamstack.org/headless-cms/) が存在していますが，公式で Hugo が対応している点と既に静的ウェブサイトホスティングサービスの Netlify を愛用していた点から Netlify CMS を採用しました。
 
-　結果的に，記事の作成や編集，投稿のタイミングで発生する Git コマンドの入力省略，Netlify CMS Editor による Markdown の記述効率化，
-
-に記述することが出来，
+　Netlify CMS によって，記事の作成や編集，投稿のタイミングで発生する Git コマンドの入力省略化，Netlify CMS Editor による Markdown の記述効率化，Shortcode の[ブロックコンポーネント化](https://www.netlifycms.org/docs/hugo/#using-hugo-shortcodes-in-the-markdown-editor)による記述効率化など，様々な工程を効率化することが出来ました。しかし，Web 上ではリアルタイムで下書き記事のプレビューが行えないのが欠点です。
 
 ## 6. おわりに
 
-　XXX
+　ここまで，JAMStack なブログサイトの開発過程で使用した Hugo，Tailwind CSS，Alpine.js，Netlify CMS の概要，選択した理由，使用した感想などについて記述してきました。本記事で紹介した組み合わせは，あくまでも筆者が調査した範囲かつ筆者の要件を満たす組み合わせのため，最適解ではありません。JAMStack なブログサイト開発の一例として参考にしていただけると幸いです。
