@@ -14,9 +14,11 @@ googleAds = true
 
 　これらのソフトウェアやサービスは，Hugo と Gastby.js，Tailwind CSS と Boostrap，Alpine.js と Vue.js，Netlify と Vercel，Netlify CMS と microCMS など，類似するものが多く存在します。これらのソフトウェアやサービスから，自分に適したソフトウェアやサービスを比較，選択するのは大きな労力がかかります。
 
-　そこで，本記事では JAMStack なブログサイトを構築しようと考えている人に向け，上記のソフトウェアとサービスの概要，選択した理由，使用した感想などを記述します。
+　そこで，本記事では JAMStack なブログサイトを構築，もしくは運用しようと考えている人に向け，上記のソフトウェアとサービスの概要，選択した理由，使用した感想などを記述します。また，ブログ記事を作成してから公開するまでのシステムアーキテクチャについても記述します。
 
 ## Hugo
+
+[![Hugo](95a8716b0089229bb8afced7b37a656c.png)](https://gohugo.io/)
 
 　XXX
 
@@ -33,6 +35,10 @@ googleAds = true
 　XXX
 
 ## Netlify CMS
+
+　XXX
+
+## システムアーキテクチャ
 
 　XXX
 
