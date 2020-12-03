@@ -1,7 +1,7 @@
 +++
-slug = "column-hugo-tailwindcss-alpinejs-netlify-cms-build-jamstack-blog"
+slug = "column-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"
 image = "cfc29025d9a0575216282544e099e8d0.png"
-title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの構築"
+title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの開発後記"
 publishDate = 2020-12-03T16:57:01.472Z
 lastmod = ""
 tags = ["Column", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
@@ -37,14 +37,18 @@ Hugo は Go 言語標準のテンプレートエンジンや組み込み関数�
 
 　上記のジレンマを解消するため，ユーティリティ指向の CSS フレームワークである Tailwind CSS に乗り換えました。結果的に，バニラ CSS を 1 行も記述することなく独自の UI を構築することができ，CSS ファイルのサイズも大幅に削減することが出来ました。
 
-## Alpine.js
+## 4. Alpine.js
+
+[![Alpine.js](1882fd943d136ffe66c49cb5d6a3eb70.png)](https://github.com/alpinejs/alpine)
+
+　Alpine.js は，軽量型の JavaScript フレームワークであり，[Vue.js](https://vuejs.org/) と [AngularJS](https://angularjs.org/) の影響を大きく受けています。また，公式が「Alpine.js は，Tailwind CSS の JavaScript 版」と明言しているため，Tailwind CSS との相性も良いと推測できます。
+
+　Bootstrap や UIkit は，DOM を操作する動的なコンポーネントも含まれていますが，Tailwind CSS には含まれていません。そこで，動的なコンポーネントはフルスクラッチで実装する必要がありました。結果的に，[Tab](https://getuikit.com/docs/tab) や [Toggle](https://getuikit.com/docs/toggle#toggle) などの代表的なコンポーネントは，Alpine.js を用いることでバニラ JavaScript を記述することなく実装することが出来ました。
+
+## 5. Netlify CMS
 
 　XXX
 
-## Netlify CMS
-
-　XXX
-
-## おわりに
+## 6. おわりに
 
 　XXX
