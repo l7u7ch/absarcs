@@ -21,7 +21,7 @@ googleAds = true
 
 [![Hugo](95a8716b0089229bb8afced7b37a656c.png)](https://gohugo.io/)
 
-　XXX
+　Hugo は，
 
 ## Tailwind CSS
 
