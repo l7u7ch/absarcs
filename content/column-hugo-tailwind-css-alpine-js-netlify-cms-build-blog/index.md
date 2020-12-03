@@ -6,7 +6,7 @@ publishDate = 2020-12-02T21:10:23.241Z
 lastmod = ""
 tags = ["Column", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
-draft = true
+draft = false
 googleAds = true
 +++
 ## はじめに
