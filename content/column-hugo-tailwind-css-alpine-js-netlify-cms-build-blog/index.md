@@ -1,5 +1,5 @@
 +++
-slug = "column-hugo-tailwind-alpine-netlify-cms-build-jamstack-blog"
+slug = "column-hugo-tailwindcss-alpinejs-netlify-cms-build-jamstack-blog"
 image = "cfc29025d9a0575216282544e099e8d0.png"
 title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの構築"
 publishDate = 2020-12-03T16:57:01.472Z
@@ -15,7 +15,7 @@ googleAds = true
 
 　これらのソフトウェアやサービスは，Hugo と Gastby.js，Tailwind CSS と Boostrap，Alpine.js と Vue.js，Netlify と Vercel，Netlify CMS と microCMS など，類似するものが多く存在します。これらのソフトウェアやサービスから，自分に適したソフトウェアやサービスを比較，選択するのは大きな労力がかかります。
 
-　そこで，本記事では JAMStack なブログサイトを構築，もしくは運用しようと考えている人に向け，上記のソフトウェアとサービスの概要，選択した理由，使用した感想などを記述します。また，ブログ記事を作成してから公開するまでのシステムアーキテクチャについても記述します。
+　そこで，本記事では JAMStack なブログサイトを構築，もしくは運用しようと考えている人に向け，上記のソフトウェアとサービスの概要，選択した理由，使用した感想などを記述します。
 
 ## 2. Hugo
 
@@ -41,15 +41,7 @@ Hugo は Go 言語標準のテンプレートエンジンや組み込み関数�
 
 　XXX
 
-## Netlify
-
-　XXX
-
 ## Netlify CMS
-
-　XXX
-
-## システムアーキテクチャ
 
 　XXX
 
