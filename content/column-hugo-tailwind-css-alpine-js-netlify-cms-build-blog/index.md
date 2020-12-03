@@ -2,7 +2,7 @@
 slug = "survey-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"
 image = "cfc29025d9a0575216282544e099e8d0.png"
 title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの開発後記"
-publishDate = 2020-12-03T16:57:01.472Z
+publishDate = 2020-12-03T20:54:49.707Z
 lastmod = ""
 tags = ["Survey", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
