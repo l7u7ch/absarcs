@@ -2,7 +2,7 @@
 slug = "tips-minimize-generated-react-app-create-react-app"
 image = "25e7a8c5ca8ee6ce2a4f571d11e99ac0.png"
 title = "Create React App で生成される React アプリを最小構成にする"
-publishDate = 2020-12-04T22:04:43.220Z
+publishDate = "2020-12-05T07:11:00+09:00"
 lastmod = ""
 tags = ["Tips", "React"]
 weight = 0
