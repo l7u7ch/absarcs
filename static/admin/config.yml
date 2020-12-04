@@ -11,7 +11,8 @@ collections:
     folder: 'content'
     create: true
     format: 'toml-frontmatter'
-    path: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}/index'
+    slug: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}'
+    path: '{{slug}}/index'
     fields:
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
