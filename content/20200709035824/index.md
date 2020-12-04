@@ -1,19 +1,21 @@
 +++
+slug = "tips-vanilla-javascript-lodash-group-by-sum-dictionary"
 image = "d6afde5c20e6612530bd8afaf1695704.png"
-title = "Vanilla JS と Lodash で GROUP BY + SUM する"
+title = "Vanilla JS と Lodash で連想配列を GROUP BY + SUM する"
 date = "2020-07-09T03:58:24+09:00"
-lastmod = ""
+lastmod = "2020-12-05T00:42:00+09:00"
 tags = [
   "Tips",
   "JavaScript",
   "Lodash",
 ]
 googleAds = true
+aliases = ["tips-vanilla-javascript-lodash-group-by-sum"]
 +++
 
 ## 1. はじめに
 
-　本記事では，以下のデータ処理を JavaScript で行う方法について考えます。様々な実装方法が考えられますが，本記事では Vanilla JS を用いた方法とユーティリティライブラリである Lodash を用いた方法について記述します。
+　本記事では，JavaScript を用いて以下ような連想配列を GROUP BY + SUM する方法について考えます。様々な実装方法が考えられますが，本記事では Vanilla JS を用いた方法とユーティリティライブラリである [Lodash](https://lodash.com/) を用いた方法について記述します。
 
 ```js
 # 処理前
@@ -45,7 +47,7 @@ googleAds = true
 
 ## 2. Vanilla JS
 
-　インターネットで公開されている[記事](https://zukucode.com/2017/05/javascript-object-sql-group-by.html)を参考に，Vanilla JS で実装したソースコードと，その実行結果を以下に示します。[reduce](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) と [find](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/find) を用いることで関数型プログラミングによる実装を実現しています。
+　様々な実装が考えられますが，今回はインターネットで公開されている[記事](https://zukucode.com/2017/05/javascript-object-sql-group-by.html)を参考に，[reduce](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) と [find](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/find) を用いることで GROUP BY + SUM を実装しています。
 
 ```js {linenos=table}
 const before = [
@@ -75,6 +77,8 @@ const after = before.reduce((acc, crt) => {
 console.log(after);
 ```
 
+　上記のソースコードを *app.js* というファイル名で任意のフォルダ内に保存します。app.js を実行すると，正常に GROUP BY + SUM されていることが確認できました。
+
 ```js
 $ node app.js
 [
@@ -86,7 +90,7 @@ $ node app.js
 
 ## 3. Lodash
 
-　Lodash が提供している [groupBy](https://lodash.com/docs/4.17.15#groupBy) と [map](https://lodash.com/docs/4.17.15#map)，[sumBy](https://lodash.com/docs/4.17.15#sumBy) を組み合わせて実装したソースコードと，その実行結果を以下に示します。
+　こちらも Vanilla JS 同様に様々な実装が考えられますが，今回は Lodash が提供している [groupBy](https://lodash.com/docs/4.17.15#groupBy) と [map](https://lodash.com/docs/4.17.15#map)，[sumBy](https://lodash.com/docs/4.17.15#sumBy) を組み合わせて GROUP BY + SUM を実装しました。
 
 ```js {linenos=table}
 const _ = require('lodash');
@@ -114,6 +118,8 @@ const after = _(before)
 
 console.log(after);
 ```
+
+　上記のソースコードを *app.js* というファイル名で任意のフォルダ内に保存します。app.js を実行すると，正常に GROUP BY + SUM されていることが確認できました。
 
 ```js
 $ node app.js
