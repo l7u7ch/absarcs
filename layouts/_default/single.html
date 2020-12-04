@@ -5,7 +5,7 @@
     {{ if .Params.tags }}
     <div class="mb-8">
       {{ range .Params.tags }}
-      <a class="border duration-500 hover:bg-primary hover:border-primary hover:text-white px-3 py-1 mr-2 rounded-full text-sm" href="/tags/{{ lower . }}">
+      <a class="border duration-500 hover:bg-primary hover:border-primary hover:text-white inline-block mr-2 my-1 px-3 py-1 rounded-full text-sm" href="/tags/{{ lower . }}">
         {{ . }}
       </a>
       {{ end }}
