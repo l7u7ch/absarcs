@@ -1,6 +1,7 @@
 backend:
   name: 'git-gateway'
   branch: 'master' # Branch to update (optional; defaults to master)
+  squash_merges: true
 publish_mode: editorial_workflow
 media_folder: 'static/img'
 public_folder: '/img'
@@ -10,7 +11,6 @@ collections:
     folder: 'content'
     create: true
     format: 'toml-frontmatter'
-    slug: '{{fields.slug}}'
     path: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}/index'
     fields:
       - { label: 'Slug', name: 'slug', widget: 'string' }
