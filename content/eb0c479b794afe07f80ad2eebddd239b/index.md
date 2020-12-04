@@ -1,7 +1,7 @@
 +++
 image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "GNOME と KDE の次に試したい Linux デスクトップ環境"
-date = "2020-04-20T18:10:00+09:00"
+publishDate = "2020-04-20T18:10:00+09:00"
 lastmod = ""
 tags = [ "GNOME", "KDE", "Linux" ]
 googleAds = true

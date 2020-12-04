@@ -1,7 +1,7 @@
 +++
 image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "メイン OS を Windows から Linux にするメリット・デメリット"
-date = "2020-01-12T00:41:40+09:00"
+publishDate = "2020-01-12T00:41:40+09:00"
 lastmod = ""
 tags = [ "Column", "Linux", "Windows" ]
 googleAds = true

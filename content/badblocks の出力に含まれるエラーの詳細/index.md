@@ -2,7 +2,7 @@
 slug = "25c540e7e79ee9f2d838c462c0da4f22"
 image = "e01071c3dfa4eccbc8fe58222210a8ab.png"
 title = "badblocks の出力に含まれるエラーの詳細"
-date = "2019-05-28"
+publishDate = "2019-05-28"
 lastmod = ""
 tags = [ "CUI", "Hardware" ]
 googleAds = true

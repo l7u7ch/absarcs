@@ -2,7 +2,7 @@
 slug = "tips-vanilla-javascript-lodash-group-by-sum-dictionary"
 image = "d6afde5c20e6612530bd8afaf1695704.png"
 title = "Vanilla JS と Lodash で連想配列を GROUP BY + SUM する"
-date = "2020-07-09T03:58:24+09:00"
+publishDate = "2020-07-09T03:58:24+09:00"
 lastmod = "2020-12-05T00:42:00+09:00"
 tags = [
   "Tips",

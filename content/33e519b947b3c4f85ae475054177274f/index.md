@@ -1,7 +1,7 @@
 +++
 image = "2620ddaf171086ed984cf61b8d05795b.png"
 title = "ブログフレームワークとして WordPress と Hugo を比較・評価する"
-date = "2020-01-12T02:47:00+09:00"
+publishDate = "2020-01-12T02:47:00+09:00"
 lastmod = "2020-04-20T12:47:00+09:00"
 tags = [ "Hugo", "Web", "WordPress" ]
 googleAds = true

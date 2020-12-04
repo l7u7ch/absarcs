@@ -2,7 +2,7 @@
 slug = "beeafc4b62c78ef5c7b91ac1f4143582"
 image = ""
 title = "Windows の設定と対応する ms-settings の一覧表"
-date = "2019-04-18"
+publishDate = "2019-04-18"
 lastmod = "2019-05-14"
 tags = [ "Windows" ]
 googleAds = true

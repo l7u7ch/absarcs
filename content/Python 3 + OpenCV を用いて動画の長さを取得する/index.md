@@ -2,7 +2,7 @@
 slug = "5a24503b476cde19486f123da98b1991"
 image = "e7d8548680b6123c2361613f3ea0de1a.png"
 title = "Python 3 + OpenCV を用いて動画の長さを取得する"
-date = "2018-02-06"
+publishDate = "2018-02-06"
 lastmod = "2018-12-19"
 tags = [ "OpenCV", "Programming", "Python" ]
 googleAds = true

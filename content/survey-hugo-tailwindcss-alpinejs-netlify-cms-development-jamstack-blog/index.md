@@ -6,7 +6,6 @@ publishDate = 2020-12-03T20:54:49.707Z
 lastmod = ""
 tags = ["Survey", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
-draft = false
 googleAds = true
 +++
 ## 1. はじめに

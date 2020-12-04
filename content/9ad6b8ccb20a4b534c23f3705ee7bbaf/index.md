@@ -1,7 +1,7 @@
 +++
 image = "8c70c4a1bbd066c471737212ad25c008.png"
 title = "技術系のブログ記事を執筆する際に注意しているポイント"
-date = "2020-01-27T17:38:00+09:00"
+publishDate = "2020-01-27T17:38:00+09:00"
 lastmod = ""
 tags = [ "LifeHack", "Literacy", "Writing" ]
 googleAds = true

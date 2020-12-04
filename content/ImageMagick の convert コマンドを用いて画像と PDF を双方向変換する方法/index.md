@@ -2,7 +2,7 @@
 slug = "f350d46f4c44ab4d15f576626b441105"
 image = "e01071c3dfa4eccbc8fe58222210a8ab.png"
 title = "ImageMagick の convert コマンドを用いて画像と PDF を双方向変換する方法"
-date = "2019-11-06T01:25:54+09:00"
+publishDate = "2019-11-06T01:25:54+09:00"
 lastmod = ""
 tags = [ "CUI", "Media" ]
 googleAds = true

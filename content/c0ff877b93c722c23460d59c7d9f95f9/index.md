@@ -1,7 +1,7 @@
 +++
 image = "2620ddaf171086ed984cf61b8d05795b.png"
 title = "ブログフレームワークとして GatsbyJS と Hugo を比較・評価する"
-date = "2020-02-25T01:51:42+09:00"
+publishDate = "2020-02-25T01:51:42+09:00"
 lastmod = ""
 tags = [ "Web", "GatsbyJS", "Hugo" ]
 googleAds = true

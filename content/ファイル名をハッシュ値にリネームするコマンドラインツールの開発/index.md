@@ -2,7 +2,7 @@
 slug = "79be16fd4ea9b242cbb717fca3ca16f0"
 image = "e01071c3dfa4eccbc8fe58222210a8ab.png"
 title = "ファイル名をハッシュ値にリネームするコマンドラインツールの開発"
-date = "2019-10-20"
+publishDate = "2019-10-20"
 lastmod = "2019-10-20"
 tags = [ "CUI", "Develop" ]
 googleAds = true

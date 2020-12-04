@@ -2,7 +2,7 @@
 slug = "780852dbb6809c8624109de34d158c27"
 image = "8c70c4a1bbd066c471737212ad25c008.png"
 title = "自分の学習スタイルに合った技術書の見極め方"
-date = "2018-02-14"
+publishDate = "2018-02-14"
 lastmod = ""
 tags = [ "LifeHack" ]
 googleAds = true

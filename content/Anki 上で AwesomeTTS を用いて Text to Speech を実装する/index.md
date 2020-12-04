@@ -2,7 +2,7 @@
 slug = "367b43a223ff73e699e7582bb09037f5"
 image = ""
 title = "Anki 上で AwesomeTTS を用いて Text to Speech を実装する"
-date = "2018-01-09"
+publishDate = "2018-01-09"
 lastmod = "2019-02-10"
 tags = [ "Education", "GUI" ]
 googleAds = true

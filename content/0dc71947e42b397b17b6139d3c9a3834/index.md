@@ -1,7 +1,7 @@
 +++
 image = "d58613728642ffe4171a5c744adfe035.png"
 title = "Linux のデスクトップ環境として Budgie Desktop を愛用していた理由"
-date = "2019-02-28T00:00:00+09:00"
+publishDate = "2019-02-28T00:00:00+09:00"
 lastmod = "2020-05-29T08:53:00+09:00"
 tags = [
   "Budgie",

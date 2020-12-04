@@ -1,7 +1,7 @@
 +++
 image = "b33340e9f3bf46cfdf5e8da4072a7d48.png"
 title = "GAS を用いて Toggl のデータを Google カレンダーに移行する"
-date = "2020-02-25T21:06:00+09:00"
+publishDate = "2020-02-25T21:06:00+09:00"
 lastmod = ""
 tags = [ "GAS", "Programming", "Toggl" ]
 googleAds = true

@@ -1,7 +1,7 @@
 +++
 image = "06ae1fab8a630b9fe6afaf58d3093962.png"
 title = "ライフログを取り続けて感じたメリット・デメリット"
-date = "2020-05-23T21:22:00+09:00"
+publishDate = "2020-05-23T21:22:00+09:00"
 lastmod = ""
 tags = [ 
   "LifeHack",

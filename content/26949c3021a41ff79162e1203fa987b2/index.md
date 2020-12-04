@@ -1,7 +1,7 @@
 +++
 image = "759a331e4c887ff2bde298b1b2125d3d.png"
 title = "電子情報処理学会に関連する論文・催事まとめ"
-date = "2020-03-08T07:31:00+09:00"
+publishDate = "2020-03-08T07:31:00+09:00"
 lastmod = ""
 tags = [ "Academic", "IEICE" ]
 googleAds = true

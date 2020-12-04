@@ -1,7 +1,7 @@
 +++
 image = "1e3806bfc2b8dc42f6b7426f0436a0cf.png"
 title = "個人ブログに最適なおすすめ Hugo テーマまとめ"
-date = "2020-02-20T18:57:00+09:00"
+publishDate = "2020-02-20T18:57:00+09:00"
 lastmod = ""
 tags = [ "Web", "Hugo" ]
 weight = 1

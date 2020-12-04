@@ -1,7 +1,7 @@
 +++
 image = "32e1fac4bef435a7183a87dd33874bd6.png"
 title = "ブックレビュー: React.js & Next.js 超入門"
-date = "2020-07-10T15:42:09+09:00"
+publishDate = "2020-07-10T15:42:09+09:00"
 lastmod = ""
 tags = [
     "Review",

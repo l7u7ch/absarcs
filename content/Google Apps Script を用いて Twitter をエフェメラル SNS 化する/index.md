@@ -2,7 +2,7 @@
 slug = "aff6f0cd316165fe425ae87f4b34bbd5"
 image = ""
 title = "Google Apps Script を用いて Twitter をエフェメラル SNS 化する"
-date = "2019-06-06"
+publishDate = "2019-06-06"
 lastmod = ""
 tags = [ "Develop", "GAS", "Programming" ]
 googleAds = true

@@ -1,7 +1,7 @@
 +++
 image = "8c70c4a1bbd066c471737212ad25c008.png"
 title = "定期購読している IT 系の学会誌・雑誌"
-date = "2020-04-17T12:21:00+09:00"
+publishDate = "2020-04-17T12:21:00+09:00"
 lastmod = ""
 tags = [ "Academic", "IEICE", "IPSJ", "LifeHack" ]
 googleAds = true

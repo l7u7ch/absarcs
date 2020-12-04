@@ -1,7 +1,7 @@
 +++
 image = "288b11360eceb1a3b4beb8796cabc4ff.png"
 title = "システムエンジニアやプログラマーにおける『ポートフォリオ』と『作品』"
-date = "2020-05-11T14:56:00+09:00"
+publishDate = "2020-05-11T14:56:00+09:00"
 lastmod = ""
 tags = [ "Column" ]
 googleAds = true

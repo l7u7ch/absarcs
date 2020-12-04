@@ -2,7 +2,7 @@
 slug = "c32cde8c9eb06a9ecb29a337c356344d"
 image = "bb7b624e657bd39fb3a942413151bf49.png"
 title = "UWP 版の Inkscape の設定を初期化する方法"
-date = "2019-09-05T00:00:00+09:00"
+publishDate = "2019-09-05T00:00:00+09:00"
 lastmod = "2020-04-07T01:37:00+09:00"
 tags = [ "GUI", "Inkscape", "UWP" ]
 googleAds = true

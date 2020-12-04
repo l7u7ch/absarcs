@@ -1,7 +1,7 @@
 +++
 image = "b48223ee34723e093b3c9abb84d39cec.png"
 title = "Web サイトにおける目次 (Table of contents) のベストプラクティス"
-date = "2020-02-23T01:35:00+09:00"
+publishDate = "2020-02-23T01:35:00+09:00"
 lastmod = "2020-03-11T23:14:00+09:00"
 tags = [ "Column", "Design", "UX" ]
 googleAds = true
