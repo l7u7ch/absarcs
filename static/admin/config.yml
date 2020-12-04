@@ -19,7 +19,7 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publication Date', name: 'publishDate', widget: 'datetime', date_format: "YYYY-MM-DDTHH:mm:ss+09:00" }
-      - { label: 'Last Modified Date', name: 'lastmod', widget: 'datetime', "YYYY-MM-DDTHH:mm:ss+09:00" }
+      - { label: 'Last Modified Date', name: 'lastmod', widget: 'datetime', default: '', date_format: "YYYY-MM-DDTHH:mm:ss+09:00", required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', field: { label: 'Tag', name: 'tag', widget: 'string' } }
       - { label: 'Weight', name: 'weight', widget: 'number', default: 0 }
       - { label: 'Google AdSense', name: 'googleAds', widget: 'boolean', default: true }
