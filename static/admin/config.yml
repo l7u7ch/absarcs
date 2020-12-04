@@ -12,7 +12,7 @@ collections:
     create: true
     format: 'toml-frontmatter'
     slug: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}'
-    summary: "Version: {{version}} - {{title}}"
+    summary: "{{dirname}} - {{title}}"
     path: '{{slug}}/index'
     fields:
       - { label: 'Slug', name: 'slug', widget: 'string' }
