@@ -4,7 +4,7 @@ image = "bb7b624e657bd39fb3a942413151bf49.png"
 title = "UWP 版の Inkscape の設定を初期化する方法"
 publishDate = "2019-09-05T00:00:00+09:00"
 lastmod = "2020-04-07T01:37:00+09:00"
-tags = [ "GUI", "Inkscape", "UWP" ]
+tags = ["Tips", "Inkscape", "UWP" ]
 googleAds = true
 +++
 

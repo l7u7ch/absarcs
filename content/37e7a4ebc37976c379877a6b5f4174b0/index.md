@@ -3,7 +3,7 @@ image = "b405a834c58ca80c16fd698a84fd5384.png"
 title = "Trello から Notion に完全移行できない理由"
 publishDate = "2020-02-07T22:40:00+09:00"
 lastmod = "2020-02-07T22:40:00+09:00"
-tags = [ "LifeHack", "Trello", "Notion" ]
+tags = [ "Column", "Trello", "Notion" ]
 weight = 2
 googleAds = true
 +++

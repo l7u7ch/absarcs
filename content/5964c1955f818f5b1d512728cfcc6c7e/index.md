@@ -3,7 +3,7 @@ image = "e2cc79f2d57954c319ee9ef1e5e8b373.png"
 title = "オンライン飲み会に使用したビデオ通話ツールのレビュー"
 publishDate = "2020-04-20T17:03:00+09:00"
 lastmod = "2020-05-10T16:19:00+09:00"
-tags = [ "GUI", "Web" ]
+tags = ["Tool"]
 googleAds = true
 +++
 

@@ -4,7 +4,7 @@ image = ""
 title = "ASUSTOR のアプリをダウングレードする方法"
 publishDate = "2018-07-04T00:00:00+09:00"
 lastmod = "2018-07-04T00:00:00+09:00"
-tags = [ "ASUSTOR", "NAS", "Network" ]
+tags = ["Tips", "ASUSTOR", "NAS"]
 googleAds = true
 +++
 

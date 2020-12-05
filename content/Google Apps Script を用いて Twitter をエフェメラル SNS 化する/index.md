@@ -4,7 +4,7 @@ image = ""
 title = "Google Apps Script を用いて Twitter をエフェメラル SNS 化する"
 publishDate = "2019-06-06T00:00:00+09:00"
 lastmod = "2019-06-06T00:00:00+09:00"
-tags = [ "Develop", "GAS", "Programming" ]
+tags = ["Tips", "GAS"]
 googleAds = true
 +++
 

@@ -4,7 +4,7 @@ image = "043df3f8da78ec510622f5a801f13a97.png"
 title = "GatsbyJS (React) で UIkit を正常に動作させる方法"
 publishDate = "2019-10-31T05:00:00+09:00"
 lastmod = "2019-10-31T05:00:00+09:00"
-tags = [ "Web", "GatsbyJS", "React", "UIkit" ]
+tags = ["Tips", "GatsbyJS", "React", "UIkit" ]
 googleAds = true
 +++
 

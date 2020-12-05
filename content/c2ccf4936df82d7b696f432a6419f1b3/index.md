@@ -3,7 +3,7 @@ image = "8c70c4a1bbd066c471737212ad25c008.png"
 title = "パスワード管理ツールを比較・評価する"
 publishDate = "2020-01-12T05:45:00+09:00"
 lastmod = "2020-01-12T05:45:00+09:00"
-tags = [ "GUI", "LifeHack", "Security" ]
+tags = ["Tool"]
 googleAds = true
 +++
 

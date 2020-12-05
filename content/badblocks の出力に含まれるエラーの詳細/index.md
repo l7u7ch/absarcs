@@ -4,7 +4,7 @@ image = "e01071c3dfa4eccbc8fe58222210a8ab.png"
 title = "badblocks の出力に含まれるエラーの詳細"
 publishDate = "2019-05-28T00:00:00+09:00"
 lastmod = "2019-05-28T00:00:00+09:00"
-tags = [ "CUI", "Hardware" ]
+tags = ["Tips", "badblocks"]
 googleAds = true
 +++
 

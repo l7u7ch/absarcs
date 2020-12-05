@@ -3,7 +3,7 @@ image = "2620ddaf171086ed984cf61b8d05795b.png"
 title = "ブログフレームワークとして GatsbyJS と Hugo を比較・評価する"
 publishDate = "2020-02-25T01:51:42+09:00"
 lastmod = "2020-02-25T01:51:42+09:00"
-tags = [ "Web", "GatsbyJS", "Hugo" ]
+tags = ["Survey", "GatsbyJS", "Hugo"]
 googleAds = true
 +++
 

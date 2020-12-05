@@ -4,7 +4,7 @@ image = ""
 title = "Scalafmt を sbt のプラグインとしてインストール・実行する方法"
 publishDate = "2019-05-16T00:00:00+09:00"
 lastmod = "2019-05-16T00:00:00+09:00"
-tags = [ "Scala" ]
+tags = ["Tips", "Scala"]
 googleAds = true
 +++
 

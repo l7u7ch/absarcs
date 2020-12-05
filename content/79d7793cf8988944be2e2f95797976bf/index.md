@@ -3,11 +3,7 @@ image = "217e41d2922c45e3c8c23dcc4462878d.png"
 title = "時間に追われる現代人に送るライフハックメソッド 6 選"
 publishDate = "2019-07-06T00:00:00+09:00"
 lastmod = "2020-05-28T09:58:00+09:00"
-tags = [ 
-  "GTD",
-  "LifeHack",
-  "PDCA",
-]
+tags = ["Survey", "LifeHack", "GTD", "PDCA"]
 googleAds = true
 +++
 

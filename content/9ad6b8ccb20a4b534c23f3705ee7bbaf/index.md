@@ -3,7 +3,7 @@ image = "8c70c4a1bbd066c471737212ad25c008.png"
 title = "技術系のブログ記事を執筆する際に注意しているポイント"
 publishDate = "2020-01-27T17:38:00+09:00"
 lastmod = "2020-01-27T17:38:00+09:00"
-tags = [ "LifeHack", "Literacy", "Writing" ]
+tags = ["Column"]
 googleAds = true
 +++
 

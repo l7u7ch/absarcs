@@ -3,7 +3,7 @@ image = "ea605533f27dd2db1ac6574e417a66f2.png"
 title = "情報処理学会に関連する論文・催事まとめ"
 publishDate = "2020-02-29T15:50:00+09:00"
 lastmod = "2020-02-29T15:50:00+09:00"
-tags = [ "Academic", "IPSJ" ]
+tags = ["Survey", "Academic", "IPSJ"]
 googleAds = true
 +++
 

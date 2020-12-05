@@ -4,7 +4,7 @@ image = ""
 title = "オススメの Git クライアント 3 選"
 publishDate = "2019-10-28T17:21:00+09:00"
 lastmod = "2019-10-28T17:21:00+09:00"
-tags = [ "Git", "GUI" ]
+tags = ["Git"]
 googleAds = true
 +++
 
