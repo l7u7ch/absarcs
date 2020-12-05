@@ -2,12 +2,11 @@
 slug = "tips-vanilla-javascript-lodash-accumulate-dictionary"
 image = "d6afde5c20e6612530bd8afaf1695704.png"
 title = "Vanilla JS と Lodash で連想配列を累計する"
-publishDate = "2020-12-05T07:57:55+0900"
-lastmod = "2020-12-05T07:57:55+0900"
+publishDate = "2020-12-06T08:28:39+0900"
+lastmod = "2020-12-06T08:28:39+0900"
+tags = ["Tips", "JavaScript", "Lodash"]
 weight = 0
 googleAds = true
-draft = true
-tags = ["Tips", "JavaScript", "Lodash"]
 +++
 ## 1. はじめに
 
@@ -42,6 +41,12 @@ tags = ["Tips", "JavaScript", "Lodash"]
 　様々な実装が考えられますが，今回はインターネットで公開されている[記事](https://www.it-swarm-ja.tech/ja/javascript/javascript%E3%81%A7%E7%B4%AF%E7%A9%8D%E5%90%88%E8%A8%88%E3%81%AE%E9%85%8D%E5%88%97%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B/1042626037/)を参考に，[reduce](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) を用いることで累計を実装しています。
 
 ```js
+const before = [
+    { date: '2020-01-01', sales: 100 },
+    { date: '2020-01-02', sales: 200 },
+    { date: '2020-01-03', sales: 300 },
+]
+
 const after = before.reduce((acc, cur, idx) => {
     if (acc.length) {
         cur.accumulation = cur.sales + acc[idx - 1].accumulation;
@@ -68,4 +73,42 @@ $ node app.js
 
 ## 3. Lodash
 
+　こちらも Vanilla JS 同様に様々な実装が考えられますが，今回は Lodash が提供している [reduce](https://lodash.com/docs/3.10.1#reduce) を用いて実装しています。
+
+```js
+const _ = require('lodash');
+
+const before = [
+    { date: '2020-01-01', sales: 100 },
+    { date: '2020-01-02', sales: 200 },
+    { date: '2020-01-03', sales: 300 },
+]
+
+const after = _(before)
+    .reduce((acc, cur, idx) => {
+        if (acc.length) {
+            cur.accumulation = cur.sales + acc[idx - 1].accumulation;
+        } else {
+            cur.accumulation = cur.sales;
+        }
+        acc.push(cur);
+        return acc;
+    }, []);
+
+console.log(after);
+```
+
+　上記のソースコードを *app.js* というファイル名で任意のフォルダ内に保存します。app.js を実行すると，正常に累計されていることが確認できました。
+
+```bash
+$ node app.js
+[
+  { date: '2020-01-01', sales: 100, accumulation: 100 },
+  { date: '2020-01-02', sales: 200, accumulation: 300 },
+  { date: '2020-01-03', sales: 300, accumulation: 600 }
+]
+```
+
 ## 4. おわりに
+
+　ここまで，Vanilla JS と Lodash を用いて連想配列を累計する方法について記述してきました。Vanilla JS の [reduce](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) と Lodash の [reduce](https://lodash.com/docs/3.10.1#reduce) に大きな差がないため，ほとんど同じソースコードになりました。今回は実行速度を計測していないため，パフォーマンスの観点から比較することが出来ていません。
