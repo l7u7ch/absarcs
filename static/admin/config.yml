@@ -38,11 +38,9 @@ collections:
       - label: 'Last Modified Date'
         name: 'lastmod'
         widget: 'datetime'
-        default: ''
         date_format: 'YYYY-MM-DD'
         time_format: 'HH:mm:ss'
         format: 'YYYY-MM-DDTHH:mm:ssZZ'
-        required: false
 
       - label: 'Tags'
         name: 'tags'
