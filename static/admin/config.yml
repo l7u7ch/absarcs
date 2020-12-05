@@ -12,7 +12,7 @@ collections:
     format: 'toml-frontmatter'
     slug: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}'
     summary: '{{dirname}} - {{title}}'
-    sortable_fields: ['publishDate', 'lastmod', 'title']
+    sortable_fields: ['lastmod', 'title']
     path: '{{slug}}/index'
     fields:
       - label: 'Slug'
