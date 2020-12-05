@@ -3,7 +3,7 @@ slug = "tips-minimize-generated-react-app-create-react-app"
 image = "25e7a8c5ca8ee6ce2a4f571d11e99ac0.png"
 title = "Create React App で生成される React アプリを最小構成にする"
 publishDate = "2020-12-05T07:11:00+09:00"
-lastmod = "2020-12-05T07:11:00+09:00"
+lastmod = "2020-12-06T07:22:12+0900"
 tags = ["Tips", "React"]
 weight = 0
 googleAds = true
@@ -25,10 +25,10 @@ draft = false
 　Create React App の [README.md](https://github.com/facebook/create-react-app) に従って，React アプリのテンプレートを任意のフォルダ内に生成します。[tree](https://www.atmarkit.co.jp/ait/articles/1802/01/news025.html) コマンドを用いて確認すると，正常に React アプリのテンプレートが生成されていることが確認できます。
 
 ```bash
-npx create-react-app my-app
+$ npx create-react-app my-app
 $ ls
 my-app
-cd my-app
+$ cd my-app
 $ tree -L 2
 .
 ├── README.md
