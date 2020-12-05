@@ -3,7 +3,7 @@ slug = "c801f9f5894052fbd1531f2fafd4cebc"
 image = ""
 title = "オススメの Git クライアント 3 選"
 publishDate = "2019-10-28T17:21:00+09:00"
-lastmod = ""
+lastmod = "2019-10-28T17:21:00+09:00"
 tags = [ "Git", "GUI" ]
 googleAds = true
 +++

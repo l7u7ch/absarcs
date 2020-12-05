@@ -2,8 +2,8 @@
 slug = "f914bd57b558ccc64f6121933a31488e"
 image = ""
 title = "Scalafmt を sbt のプラグインとしてインストール・実行する方法"
-publishDate = "2019-05-16"
-lastmod = ""
+publishDate = "2019-05-16T00:00:00+09:00"
+lastmod = "2019-05-16T00:00:00+09:00"
 tags = [ "Scala" ]
 googleAds = true
 +++

@@ -3,7 +3,7 @@ slug = "d2550e9da6ffd59e5f1b2108bbb28c6e"
 image = "043df3f8da78ec510622f5a801f13a97.png"
 title = "GatsbyJS (React) で UIkit を正常に動作させる方法"
 publishDate = "2019-10-31T05:00:00+09:00"
-lastmod = ""
+lastmod = "2019-10-31T05:00:00+09:00"
 tags = [ "Web", "GatsbyJS", "React", "UIkit" ]
 googleAds = true
 +++

@@ -2,7 +2,7 @@
 image = "bfa5517c54296aaae2550ac97434999b.png"
 title = "CppUnit を Ubuntu 18.04 LTS にインストールする"
 publishDate = "2020-01-10T00:37:00+09:00"
-lastmod = ""
+lastmod = "2020-01-10T00:37:00+09:00"
 tags = [ "Tips", "CppUnit", "Ubuntu" ]
 googleAds = true
 aliases = ["5f06f4bedd034b16cddb9a7f86af7574"]

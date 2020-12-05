@@ -2,7 +2,7 @@
 image = "f2e74656165a1dccda507f0b0183a9c7.png"
 title = "ブックレビュー: はじめての GTD ストレスフリーの整理術"
 publishDate = "2020-11-03T16:09:00+09:00"
-lastmod = ""
+lastmod = "2020-11-03T16:09:00+09:00"
 tags = [ "Review", "Book", "GTD" ]
 googleAds = true
 +++

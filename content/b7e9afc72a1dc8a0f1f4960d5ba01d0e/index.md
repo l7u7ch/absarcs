@@ -2,7 +2,7 @@
 image = "52695ca5183b1c5ef815590e9c68061e.png"
 title = "Bootstrap から UIkit に移行した理由"
 publishDate = "2020-02-01T12:38:00+09:00"
-lastmod = ""
+lastmod = "2020-02-01T12:38:00+09:00"
 tags = [ "Web", "Bootstrap", "UIkit" ]
 googleAds = true
 +++

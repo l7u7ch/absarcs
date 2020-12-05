@@ -2,8 +2,8 @@
 slug = "5be0e2ca47b79c3a48194640850b032f"
 image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Linux において PDF のメタデータを GUI ソフトウェアを用いて編集する方法"
-publishDate = "2019-09-03"
-lastmod = "2019-09-09"
+publishDate = "2019-09-03T00:00:00+09:00"
+lastmod = "2019-09-09T00:00:00+09:00"
 tags = [ "GUI", "Linux" ]
 googleAds = true
 +++

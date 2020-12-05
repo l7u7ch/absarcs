@@ -2,7 +2,7 @@
 image = "a7b08fdf39f3ad00579060aeec313d11.png"
 title = "ブックレビュー: ビジネススキル大全"
 publishDate = "2020-08-24T14:03:00+09:00"
-lastmod = ""
+lastmod = "2020-08-24T14:03:00+09:00"
 tags = ["Review", "Book", "Business"]
 googleAds = true
 +++

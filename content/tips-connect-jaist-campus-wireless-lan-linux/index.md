@@ -2,7 +2,7 @@
 image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Linux で JAIST の学内無線 LAN に接続する"
 publishDate = "2020-01-18T08:52:00+09:00"
-lastmod = ""
+lastmod = "2020-01-18T08:52:00+09:00"
 tags = [ "Tips", "JAIST", "Linux" ]
 googleAds = true
 aliases = ["52ce158c36a7b68357c0240ed889d682"]

@@ -2,7 +2,7 @@
 image = "d3de71ebd8576f3c29a5b737a1c010c1.png"
 title = "シャグレビュー: RED BULL BLONDE"
 publishDate = "2020-05-20T02:16:00+09:00"
-lastmod = ""
+lastmod = "2020-05-20T02:16:00+09:00"
 tags = [ "Shag", "Tabaco" ]
 googleAds = false
 +++

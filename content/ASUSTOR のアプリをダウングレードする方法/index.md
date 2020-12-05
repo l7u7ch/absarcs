@@ -2,8 +2,8 @@
 slug = "aa6dc4e5a115938aa963634973139373"
 image = ""
 title = "ASUSTOR のアプリをダウングレードする方法"
-publishDate = "2018-07-04"
-lastmod = ""
+publishDate = "2018-07-04T00:00:00+09:00"
+lastmod = "2018-07-04T00:00:00+09:00"
 tags = [ "ASUSTOR", "NAS", "Network" ]
 googleAds = true
 +++

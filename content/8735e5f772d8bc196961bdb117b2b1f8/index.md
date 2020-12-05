@@ -2,7 +2,7 @@
 image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Zorin OS Core を愛用する理由"
 publishDate = "2020-03-10T21:29:00+09:00"
-lastmod = ""
+lastmod = "2020-03-10T21:29:00+09:00"
 tags = [ "Column", "Linux", "Zorin OS" ]
 googleAds = true
 +++

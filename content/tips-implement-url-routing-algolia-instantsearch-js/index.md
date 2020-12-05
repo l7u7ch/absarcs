@@ -2,7 +2,7 @@
 image = "0a3107b790102ed856accbbb843fa5d4.png"
 title = "Algolia の InstantSearch.js を用いて URL ルーティングを実装する"
 publishDate = "2020-03-30T14:42:00+09:00"
-lastmod = ""
+lastmod = "2020-03-30T14:42:00+09:00"
 tags = [ "Tips", "Algolia", "JavaScript", "Vue.js" ]
 googleAds = true
 aliases = ["f226c45aa794459e5f203822c1a49624"]
