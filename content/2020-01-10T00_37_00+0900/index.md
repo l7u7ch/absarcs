@@ -1,4 +1,5 @@
 +++
+slug = "tips-install-cppunit-ubuntu"
 image = "bfa5517c54296aaae2550ac97434999b.png"
 title = "CppUnit を Ubuntu 18.04 LTS にインストールする"
 publishDate = "2020-01-10T00:37:00+09:00"

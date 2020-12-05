@@ -1,4 +1,5 @@
 +++
+slug = "review-book-web-creator-css-design"
 image = "374ab7db8aea6d6ee2f3f3258678c2e0.png"
 title = "ブックレビュー: Web 制作者のための CSS 設計の教科書"
 publishDate = "2020-07-14T20:37:00+09:00"

@@ -1,4 +1,5 @@
 +++
+slug = "tips-build-ui-demo-env-algolia"
 image = "0a3107b790102ed856accbbb843fa5d4.png"
 title = "Algolia が提供している動作検証機能の『UI Demos』を構築する"
 publishDate = "2020-03-15T14:58:00+09:00"

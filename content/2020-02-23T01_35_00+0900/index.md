@@ -1,4 +1,5 @@
 +++
+slug ="column-table-of-contents-best-practices"
 image = "b48223ee34723e093b3c9abb84d39cec.png"
 title = "Web サイトにおける目次 (Table of contents) のベストプラクティス"
 publishDate = "2020-02-23T01:35:00+09:00"

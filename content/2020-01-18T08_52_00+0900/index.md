@@ -1,4 +1,5 @@
 +++
+slug = "tips-connect-jaist-campus-wireless-lan-linux"
 image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Linux で JAIST の学内無線 LAN に接続する"
 publishDate = "2020-01-18T08:52:00+09:00"

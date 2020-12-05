@@ -1,4 +1,5 @@
 +++
+slug = "tips-call-pixiv-api-curl"
 image = "3895eb909f2531845581c2798210e1e4.png"
 title = "curl を用いて pixiv API を呼び出す"
 publishDate = "2018-12-05T00:00:00+09:00"
