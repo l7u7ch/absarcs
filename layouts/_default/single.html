@@ -81,3 +81,10 @@
   </div>
 </aside>
 {{ end }}
+
+{{ define "aside" }}
+{{ partial "profile-card.html" . }}
+{{ partial "search-form.html" . }}
+{{ partial "toc.html" . }}
+{{ partial "article-list.html" . }}
+{{ end }}

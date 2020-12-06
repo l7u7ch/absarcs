@@ -25,3 +25,10 @@
   {{ partial "tag-list.html" . }}
 </aside>
 {{ end }}
+
+{{ define "aside" }}
+{{ partial "search-form.html" . }}
+{{ partial "profile-card.html" . }}
+{{ partial "article-list.html" . }}
+{{ partial "tag-list.html" . }}
+{{ end }}
