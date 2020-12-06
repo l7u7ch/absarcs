@@ -37,6 +37,16 @@
       {{ partial "social-btn.html" . }}
     </div>
     <!-- /Social Button -->
+    <!-- Google AdSense -->
+    {{ if .Params.googleAds }}
+    <aside class="mb-4">
+      <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2369270801912255" data-ad-slot="4483552214"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </aside>
+    {{ end }}
+    <!-- /Google AdSense -->
     <!-- Content -->
     <div class="content mb-8">
       {{ $content := .Content }}
