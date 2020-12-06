@@ -59,8 +59,12 @@
   </article>
   <!-- Google AdSense -->
   {{ if and .Site.Params.googleAdsClientID .Site.Params.googleAdsUnitID .Params.googleAds }}
-  <aside class="mb-4">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <aside class="flex mb-4">
+    <ins class="adsbygoogle w-full" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <ins class="adsbygoogle w-full" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
