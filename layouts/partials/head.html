@@ -14,19 +14,8 @@
   <link rel="stylesheet" href="{{ (resources.Get "style.css" | minify | fingerprint).Permalink }}" />
   <link rel="stylesheet" href="{{ (resources.Get "tailwind.css" | minify | fingerprint).Permalink }}" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <script src="{{ (resources.Get "blockadblock.js" | minify | fingerprint).Permalink }}"></script>
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
   <script src="https://cse.google.com/cse.js?cx=7d4fbdf46b543edda" async></script>
   <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
-  <script>
-    function adBlockDetected() {
-      alert('AdBlock is enabled');
-    }
-    if (typeof blockAdBlock === 'undefined') {
-      adBlockDetected();
-    } else {
-      blockAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
-    }
-  </script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" async></script>
   {{ template "_internal/google_analytics_async.html" . }}
 </head>

@@ -58,13 +58,9 @@
     <!-- /Social Button -->
   </article>
   <!-- Google AdSense -->
-  {{ if and .Site.Params.googleAdsClientID .Site.Params.googleAdsUnitID .Params.googleAds }}
-  <aside class="flex mb-4">
-    <ins class="adsbygoogle w-full" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <ins class="adsbygoogle w-full" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  {{ if .Params.googleAds }}
+  <aside class="mb-4">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="8603021706" data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
@@ -73,11 +69,31 @@
   <!-- /Google AdSense -->
 </main>
 <aside class="hidden max-w-xs w-full xl:inline-block mb-4">
+  <!-- Google AdSense -->
+  {{ if .Params.googleAds }}
+  <aside class="mb-4">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="5274132935" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </aside>
+  {{ end }}
+  <!-- /Google AdSense -->
   {{ partial "profile-card.html" . }}
   <div class="sticky top-4">
     {{ partial "search-form.html" . }}
     {{ partial "toc.html" . }}
     {{ partial "article-list.html" . }}
+    <!-- Google AdSense -->
+    {{ if .Params.googleAds }}
+    <aside class="mb-4">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="8235772967" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </aside>
+    {{ end }}
+    <!-- /Google AdSense -->
   </div>
 </aside>
 {{ end }}
