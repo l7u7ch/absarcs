@@ -1,0 +1,14 @@
+{{ if eq .layout "display" }}
+<ins class="adsbygoogle" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .slot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{{ else if eq .layout "in-article" }}
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .slot }}"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{{ else if eq .layout "search-engine" }}
+<div class="gcse-searchbox-only"></div>
+{{ else }}
+{{ end }}

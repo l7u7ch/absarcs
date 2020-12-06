@@ -18,7 +18,7 @@ title = "Abstract Archives"
   desc = "Abstract Archives は，ソフトウェアやプログラミングに関する情報を中心に発信しているテック系ブログサイトであり，『未来の自分と見知らぬ誰かのために役立つ記事』をコンセプトに運営しています。"
   tagLength = 8
   googleAdsClientID = "ca-pub-2369270801912255"
-  googleAdsUnitID = "5274132935"
+  searchEngineID = "7d4fbdf46b543edda"
 
 [related]
   threshold = 0

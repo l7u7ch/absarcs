@@ -20,15 +20,32 @@
   {{ partial "pagination.html" . }}
 </main>
 <aside class="hidden max-w-xs mb-4 w-full xl:inline-block">
-  {{ partial "profile-card.html" . }}
-  {{ partial "article-list.html" . }}
-  {{ partial "tag-list.html" . }}
+  <div class="mb-4">
+    {{ partial "google-ads.html" (dict "layout" "search-engine") }}
+  </div>
+  <div class="mb-4">
+    {{ partial "profile-card.html" . }}
+  </div>
+  <div class="mb-4">
+    {{ partial "article-list.html" . }}
+  </div>
+  <div class="mb-4">
+    {{ partial "tag-list.html" . }}
+  </div>
 </aside>
 {{ end }}
 
 {{ define "aside" }}
-{{ partial "search-form.html" . }}
-{{ partial "profile-card.html" . }}
-{{ partial "article-list.html" . }}
-{{ partial "tag-list.html" . }}
+<div class="mb-4">
+  {{ partial "google-ads.html" (dict "layout" "search-engine") }}
+</div>
+<div class="mb-4">
+  {{ partial "profile-card.html" . }}
+</div>
+<div class="mb-4">
+  {{ partial "article-list.html" . }}
+</div>
+<div class="mb-4">
+  {{ partial "tag-list.html" . }}
+</div>
 {{ end }}

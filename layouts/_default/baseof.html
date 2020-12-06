@@ -10,10 +10,10 @@
   </div>
   {{ partial "footer.html" . }}
   <!-- Off-Canvas -->
-  <div class="bg-black bg-opacity-50 fixed inset-0" x-show="off_canvas" @click="off_canvas = false"></div>
-  <div class="bg-blue-50 fixed h-full inset-0 max-w-xs overflow-y-scroll p-3 w-full" x-show="off_canvas">
+  <aside class="bg-black bg-opacity-50 fixed inset-0" x-show="off_canvas" @click="off_canvas = false"></aside>
+  <aside class="bg-blue-50 fixed h-full inset-0 max-w-xs overflow-y-scroll p-3 w-full" x-show="off_canvas">
     {{ block "aside" . }}{{ end }}
-  </div>
+  </aside>
   <button class="focus:outline-none outline-none bg-primary bottom-0 duration-500 fixed flex h-12 hover:bg-white hover:text-primary items-center justify-center mb-4 mr-4 right-0 ring-1 ring-primary rounded-full text-white w-12 xl:invisible" @click="off_canvas = true">
     <i class="fas fa-bars fa-lg fa-fw"></i>
   </button>

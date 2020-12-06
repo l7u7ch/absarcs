@@ -38,14 +38,7 @@
     </div>
     <!-- /Social Button -->
     <!-- Google AdSense -->
-    {{ if .Params.googleAds }}
-    <aside class="mb-8">
-      <ins class="adsbygoogle" style="display:block" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2369270801912255" data-ad-slot="4483552214"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </aside>
-    {{ end }}
+    {{ partial "google-ads.html" (dict "layout" "in-article" "slot" "4483552214") }}
     <!-- /Google AdSense -->
     <!-- Content -->
     <div class="content mb-8">
@@ -67,58 +60,58 @@
     </div>
     <!-- /Social Button -->
   </article>
-  <!-- Google AdSense -->
+  <!-- Google AdSense: display-main-bottom -->
   {{ if .Params.googleAds }}
   <aside class="flex mb-4">
     <aside class="w-full">
-      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="8603021706" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      {{ partial "google-ads.html" (dict "layout" "display" "slot" "8235772967") }}
     </aside>
     <aside class="w-full">
-      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="8603021706" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      {{ partial "google-ads.html" (dict "layout" "display" "slot" "8235772967") }}
     </aside>
   </aside>
   {{ end }}
-  <!-- /Google AdSense -->
+  <!-- /Google AdSense: display-main-bottom -->
 </main>
 <aside class="hidden max-w-xs w-full xl:inline-block mb-4">
-  <!-- Google AdSense -->
-  {{ if .Params.googleAds }}
-  <aside class="mb-4">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="5274132935" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </aside>
-  {{ end }}
-  <!-- /Google AdSense -->
-  {{ partial "profile-card.html" . }}
+  <!-- Google AdSense: display-side-top -->
+  <div class="mb-4">
+    {{ partial "google-ads.html" (dict "layout" "display" "slot" "8603021706") }}
+  </div>
+  <!-- /Google AdSense: display-side-top -->
+  <div class="mb-4">
+    {{ partial "profile-card.html" . }}
+  </div>
   <div class="sticky top-4">
-    {{ partial "search-form.html" . }}
-    {{ partial "toc.html" . }}
-    {{ partial "article-list.html" . }}
-    <!-- Google AdSense -->
-    {{ if .Params.googleAds }}
-    <aside class="mb-4">
-      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2369270801912255" data-ad-slot="8235772967" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </aside>
-    {{ end }}
-    <!-- /Google AdSense -->
+    <div class="mb-4">
+      {{ partial "google-ads.html" (dict "layout" "search-engine") }}
+    </div>
+    <div class="mb-4">
+      {{ partial "toc.html" . }}
+    </div>
+    <div class="mb-4">
+      {{ partial "article-list.html" . }}
+    </div>
+    <!-- Google AdSense: display-side-bottom -->
+    <div class="mb-4">
+      {{ partial "google-ads.html" (dict "layout" "display" "slot" "5274132935" ) }}
+    </div>
+    <!-- /Google AdSense: display-side-bottom -->
   </div>
 </aside>
 {{ end }}
 
 {{ define "aside" }}
-{{ partial "profile-card.html" . }}
-{{ partial "search-form.html" . }}
-{{ partial "toc.html" . }}
-{{ partial "article-list.html" . }}
+<div class="mb-4">
+  {{ partial "profile-card.html" . }}
+</div>
+<div class="mb-4">
+  {{ partial "google-ads.html" (dict "layout" "search-engine") }}
+</div>
+<div class="mb-4">
+  {{ partial "toc.html" . }}
+</div>
+<div class="mb-4">
+  {{ partial "article-list.html" . }}
+</div>
 {{ end }}
