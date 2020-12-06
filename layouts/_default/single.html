@@ -74,19 +74,10 @@
 </main>
 <aside class="hidden max-w-xs w-full xl:inline-block mb-4">
   {{ partial "profile-card.html" . }}
-  <div class="sticky top-0">
+  <div class="sticky top-4">
+    {{ partial "search-form.html" . }}
     {{ partial "toc.html" . }}
     {{ partial "article-list.html" . }}
-    <!-- Google AdSense -->
-    {{ if and .Site.Params.googleAdsClientID .Site.Params.googleAdsUnitID .Params.googleAds }}
-    <aside class="mb-4">
-      <ins class="adsbygoogle" style="display:block" data-ad-client="{{ .Site.Params.googleAdsClientID }}" data-ad-slot="{{ .Site.Params.googleAdsUnitID }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </aside>
-    {{ end }}
-    <!-- /Google AdSense -->
   </div>
 </aside>
 {{ end }}
