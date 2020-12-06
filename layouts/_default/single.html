@@ -37,9 +37,9 @@
       {{ partial "social-btn.html" . }}
     </div>
     <!-- /Social Button -->
-    <!-- Google AdSense -->
-    {{ partial "google-ads.html" (dict "layout" "in-article" "slot" "4483552214") }}
-    <!-- /Google AdSense -->
+    <!-- Google AdSense: in-article -->
+    {{ partial "google-ads.html" (dict "layout" "in-article" "client" .Site.Params.googleAdsClientID "slot" "4483552214") }}
+    <!-- /Google AdSense: in-article -->
     <!-- Content -->
     <div class="content mb-8">
       {{ $content := .Content }}
@@ -64,10 +64,10 @@
   {{ if .Params.googleAds }}
   <aside class="flex mb-4">
     <aside class="w-full">
-      {{ partial "google-ads.html" (dict "layout" "display" "slot" "8235772967") }}
+      {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8235772967") }}
     </aside>
     <aside class="w-full">
-      {{ partial "google-ads.html" (dict "layout" "display" "slot" "8235772967") }}
+      {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8235772967") }}
     </aside>
   </aside>
   {{ end }}
@@ -76,7 +76,7 @@
 <aside class="hidden max-w-xs w-full xl:inline-block mb-4">
   <!-- Google AdSense: display-side-top -->
   <div class="mb-4">
-    {{ partial "google-ads.html" (dict "layout" "display" "slot" "8603021706") }}
+    {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8603021706") }}
   </div>
   <!-- /Google AdSense: display-side-top -->
   <div class="mb-4">
@@ -94,7 +94,7 @@
     </div>
     <!-- Google AdSense: display-side-bottom -->
     <div class="mb-4">
-      {{ partial "google-ads.html" (dict "layout" "display" "slot" "5274132935" ) }}
+      {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "5274132935" ) }}
     </div>
     <!-- /Google AdSense: display-side-bottom -->
   </div>
