@@ -10,9 +10,10 @@ title = "Abstract Archives"
 [author]
   name = "Dutch"
   desc = "コンピュータサイエンスを専攻している大学院生です。研究の合間に，アニメを観たりブログサイトを運営しながら生きています。"
+  amazon = "1OR56OMLYWEY4"
   github = "l7u7ch"
   twitter = "l7u7ch"
-  mail = "user45342959+ixlxqbmdwaaypv7xk9j1@boards.trello.com"
+  mail = "ffr3ecjv6@relay.firefox.com"
 
 [params]
   desc = "Abstract Archives は，ソフトウェアやプログラミングに関する情報を中心に発信しているテック系ブログサイトであり，『未来の自分と見知らぬ誰かのために役立つ記事』をコンセプトに運営しています。"

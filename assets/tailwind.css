@@ -574,9 +574,14 @@ video {
   background-color: rgba(36, 41, 46, var(--tw-bg-opacity));
 }
 
+.bg-amazon {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 153, 0, var(--tw-bg-opacity));
+}
+
 .bg-envelope {
   --tw-bg-opacity: 1;
-  background-color: rgba(243, 156, 18, var(--tw-bg-opacity));
+  background-color: rgba(22, 160, 133, var(--tw-bg-opacity));
 }
 
 .bg-facebook {
@@ -628,9 +633,14 @@ video {
   border-color: rgba(185, 28, 28, var(--tw-border-opacity));
 }
 
+.border-amazon {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 153, 0, var(--tw-border-opacity));
+}
+
 .border-envelope {
   --tw-border-opacity: 1;
-  border-color: rgba(243, 156, 18, var(--tw-border-opacity));
+  border-color: rgba(22, 160, 133, var(--tw-border-opacity));
 }
 
 .border-facebook {
@@ -1055,9 +1065,14 @@ video {
   color: rgba(185, 28, 28, var(--tw-text-opacity));
 }
 
+.hover\:text-amazon:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 153, 0, var(--tw-text-opacity));
+}
+
 .hover\:text-envelope:hover {
   --tw-text-opacity: 1;
-  color: rgba(243, 156, 18, var(--tw-text-opacity));
+  color: rgba(22, 160, 133, var(--tw-text-opacity));
 }
 
 .hover\:text-facebook:hover {

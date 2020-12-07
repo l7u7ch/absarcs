@@ -24,7 +24,7 @@ module.exports = {
         'primary': { DEFAULT: '#b91c1c' },
         'secondary': { DEFAULT: '#24292e' },
         'amazon': { DEFAULT: '#ff9900' },
-        'envelope': { DEFAULT: '#f39c12' },
+        'envelope': { DEFAULT: '#16a085' },
         'facebook': { DEFAULT: '#3b5998' },
         'github': { DEFAULT: '#24292e' },
         'hatena': { DEFAULT: '#00a4de' },
