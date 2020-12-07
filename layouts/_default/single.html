@@ -38,7 +38,9 @@
     </div>
     <!-- /Social Button -->
     <!-- Google AdSense: in-article -->
+    {{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
     {{ partial "google-ads.html" (dict "layout" "in-article" "client" .Site.Params.googleAdsClientID "slot" "4483552214") }}
+    {{ end }}
     <!-- /Google AdSense: in-article -->
     <!-- Content -->
     <div class="content mb-8">
@@ -61,7 +63,7 @@
     <!-- /Social Button -->
   </article>
   <!-- Google AdSense: display-main-bottom -->
-  {{ if .Params.googleAds }}
+  {{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
   <aside class="flex mb-4">
     <aside class="w-full">
       {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8235772967") }}
@@ -75,17 +77,21 @@
 </main>
 <aside class="hidden max-w-xs w-full xl:inline-block mb-4">
   <!-- Google AdSense: display-side-top -->
+  {{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
   <div class="mb-4">
     {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8603021706") }}
   </div>
+  {{ end }}
   <!-- /Google AdSense: display-side-top -->
   <div class="mb-4">
     {{ partial "profile-card.html" . }}
   </div>
   <div class="sticky top-4">
+    {{ if and .Site.Params.searchEngineID .Params.googleAds }}
     <div class="mb-4">
       {{ partial "google-ads.html" (dict "layout" "search-engine") }}
     </div>
+    {{ end }}
     <div class="mb-4">
       {{ partial "toc.html" . }}
     </div>
@@ -93,9 +99,11 @@
       {{ partial "article-list.html" . }}
     </div>
     <!-- Google AdSense: display-side-bottom -->
+    {{ if .Site.Params.googleAdsClientID }}
     <div class="mb-4">
       {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "5274132935" ) }}
     </div>
+    {{ end }}
     <!-- /Google AdSense: display-side-bottom -->
   </div>
 </aside>
@@ -105,9 +113,11 @@
 <div class="mb-4">
   {{ partial "profile-card.html" . }}
 </div>
+{{ if .Site.Params.searchEngineID }}
 <div class="mb-4">
   {{ partial "google-ads.html" (dict "layout" "search-engine") }}
 </div>
+{{ end }}
 <div class="mb-4">
   {{ partial "toc.html" . }}
 </div>

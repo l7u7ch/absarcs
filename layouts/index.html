@@ -15,9 +15,11 @@
   </div>
 </main>
 <aside class="hidden max-w-xs w-full xl:inline-block">
+  {{ if .Site.Params.searchEngineID }}
   <div class="mb-4">
     {{ partial "google-ads.html" (dict "layout" "search-engine") }}
   </div>
+  {{ end }}
   <div class="mb-4">
     {{ partial "profile-card.html" . }}
   </div>
@@ -31,9 +33,11 @@
 {{ end }}
 
 {{ define "aside" }}
+{{ if .Site.Params.searchEngineID }}
 <div class="mb-4">
   {{ partial "google-ads.html" (dict "layout" "search-engine") }}
 </div>
+{{ end }}
 <div class="mb-4">
   {{ partial "profile-card.html" . }}
 </div>
