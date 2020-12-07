@@ -1,5 +1,5 @@
 +++
-slug = "latex2ε-introduction-beautiful-document-creation-revised-7th-edition"
+slug = "review-book-latex2ε-introduction-beautiful-document-creation-revised-7th-edition"
 image = "22172c0f2cfe9f68c18cf52cc2679235.png"
 title = "ブックレビュー: LaTeX2ε 美文書作成入門 改訂第 7 版"
 publishDate = "2020-12-08T02:47:45+09:00"
@@ -7,6 +7,7 @@ lastmod = "2020-12-08T02:47:45+09:00"
 tags = ["Review", "Book", "LaTeX"]
 weight = 0
 googleAds = true
+aliases = ["latex2ε-introduction-beautiful-document-creation-revised-7th-edition"]
 +++
 
 ## 1. 製品概要
