@@ -5,5 +5,5 @@ title = "シャグレビュー: CHOICE DARK CHOCOLATE"
 publishDate = "2020-12-08T14:16:00+0900"
 lastmod = "2020-12-08T14:16:00+0900"
 tags = ["Review", "Shag", "Tabaco"]
-draft = false
+draft = true
 +++
