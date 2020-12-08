@@ -2,8 +2,8 @@
 slug = "review-book-latex2ε-introduction-beautiful-document-creation-revised-7th-edition"
 image = "22172c0f2cfe9f68c18cf52cc2679235.png"
 title = "ブックレビュー: LaTeX2ε 美文書作成入門 改訂第 7 版"
-publishDate = "2020-12-08T02:47:45+09:00"
-lastmod = "2020-12-08T02:47:45+09:00"
+publishDate = "2020-12-08T02:47:45+0900"
+lastmod = "2020-12-08T02:47:45+0900"
 tags = ["Review", "Book", "LaTeX"]
 weight = 0
 googleAds = true
@@ -12,7 +12,7 @@ aliases = ["latex2ε-introduction-beautiful-document-creation-revised-7th-editio
 
 ## 1. 製品概要
 
-　[LaTeX2ε 美文書作成入門 改訂第 7 版](https://gihyo.jp/book/2017/978-4-7741-8705-1)は，[奥村晴彦氏](https://twitter.com/h_okumura?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)と[黒木裕介氏](https://jp.linkedin.com/in/yusuke-kuroki-kuroky)によって執筆された LaTeX の入門書です。技術評論社によって，B5 変形判，448 ページで出版されています。また，電子書籍にも対応しています。
+　[LaTeX2ε 美文書作成入門 改訂第 7 版](https://rpx.a8.net/svt/ejp?a8mat=3BDYDP+AUKDMA+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00q0724.2bo11c45.g00q0724.2bo12179%2Fa20052522171_3BDYDP_AUKDMA_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fbook%252F14619491%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fbook%252Fi%252F18320349%252F)は，[奥村晴彦氏](https://twitter.com/h_okumura?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)と[黒木裕介氏](https://jp.linkedin.com/in/yusuke-kuroki-kuroky)によって執筆された LaTeX の入門書です。技術評論社によって，B5 変形判，448 ページで出版されています。また，電子書籍にも対応しています。
 
 　*⚠* 本記事で紹介しているのは『LaTeX2ε 美文書作成入門 改訂第 7 版』です。2020 年 11 月 14 日に最新版の『[LaTeX2ε 美文書作成入門 改訂第 8 版](https://gihyo.jp/book/2020/978-4-297-11712-2)』が発売されているので，購入を検討されている方は注意して下さい。
 
