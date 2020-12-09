@@ -99,7 +99,7 @@
       {{ partial "article-list.html" . }}
     </div>
     <!-- Google AdSense: display-side-bottom -->
-    {{ if .Site.Params.googleAdsClientID }}
+    {{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
     <div class="mb-4">
       {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "5274132935" ) }}
     </div>
