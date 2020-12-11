@@ -18,7 +18,7 @@ aliases = ["shag-review-drum"]
 | 販売価格 | 約 1,330 円 |
 | グラム単価 | 約 26.6 円/g |
 
-　[DRUM](https://rpx.a8.net/svt/ejp?a8mat=3BDYDP+AUKDMA+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pq7a4.2bo11488.g00pq7a4.2bo12d31%2Fa20052522171_3BDYDP_AUKDMA_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fplaza%252F10014953%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fplaza%252Fi%252F10014953%252F) は，世界中で非常に人気の高いハーフスワレ系のシャグです内容量が 50g で約 1,330 円，グラム単価が約 26.6 円/g です。グラム単位としては約 26.6 円/g と，一般的な価格帯になりますが，内容量が 50g と他のシャグと比較すると少し多いので購入の際は注意が必要です。また，ローリングペーパーとして，RIZLA+ の Orange が付属しています。RIZLA+ の Orange は，フリーバーニングタイプのローリングペーパーで，50 枚入りです。
+　[DRUM](https://rpx.a8.net/svt/ejp?a8mat=3BDYDP+AUKDMA+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pq7a4.2bo11488.g00pq7a4.2bo12d31%2Fa20052522171_3BDYDP_AUKDMA_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fplaza%252F10014953%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fplaza%252Fi%252F10014953%252F) は，世界中で非常に人気の高いハーフスワレ系のシャグです。内容量が 50g で約 1,330 円，グラム単価が約 26.6 円/g です。グラム単位としては約 26.6 円/g と，一般的な価格帯になりますが，内容量が 50g と他のシャグと比較すると少し多いので購入の際は注意が必要です。また，ローリングペーパーとして，RIZLA+ の Orange が付属しています。RIZLA+ の Orange は，フリーバーニングタイプのローリングペーパーで，50 枚入りです。
 
 ## 2. 初期状態
 
