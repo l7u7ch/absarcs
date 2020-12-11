@@ -1,10 +1,11 @@
 +++
-slug = "shag-review-drum"
+slug = "review-shag-drum"
 image = "482965cbf9151846c87e151226972d04.png"
 title = "シャグレビュー: DRUM"
 publishDate = "2020-12-09T14:44:26+0900"
 lastmod = "2020-12-09T14:44:26+0900"
 tags = ["Review", "Shag", "Tabaco"]
+aliases = ["shag-review-drum"]
 +++
 
 ## 1. 商品概要
