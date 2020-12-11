@@ -1,11 +1,11 @@
 +++
-slug = "shag-review-red-bull-blonde"
+slug = "review-shag-red-bull-blonde"
 image = "efad0ad5ad5683d66fb4401b18219ba8.png"
 title = "シャグレビュー: RED BULL BLONDE"
 publishDate = "2020-05-20T02:16:00+0900"
 lastmod = "2020-12-09T11:35:24+0900"
 tags = ["Review", "Shag", "Tabaco"]
-aliases = ["1e9fc312aaf654ccc13e8781ba445124"]
+aliases = ["1e9fc312aaf654ccc13e8781ba445124", "shag-review-red-bull-blonde"]
 +++
 
 ## 1. 商品概要
