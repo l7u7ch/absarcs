@@ -1,0 +1,11 @@
+{{ define "meter" }}
+<span class="mr-2">{{ .Title }}</span>
+{{ len .RegularPagesRecursive }}
+件
+{{ end }}
+
+{{ define "articles" }}
+{{ range (.Paginate .RegularPagesRecursive.ByLastmod.Reverse).Pages }}
+{{ .Render "list" }}
+{{ end }}
+{{ end }}
