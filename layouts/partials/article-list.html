@@ -1,5 +1,5 @@
-<div class="bg-white rounded-lg overflow-hidden shadow" x-data="{ tab: {{ .IsPage }} ? 'related' : 'popular' }">
-  <header class="flex justify-around text-center text-sm">
+<div class="bg-white overflow-hidden rounded-lg shadow text-sm" x-data="{ tab: {{ .IsPage }} ? 'related' : 'popular' }">
+  <header class="flex justify-around text-center">
     <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'related' }" @click="tab = 'related'" x-show="{{ .IsPage }}">
       関連記事
     </button>
@@ -16,7 +16,7 @@
       <li>
         <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
           <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-          <div class="duration-500 group-hover:text-white text-sm">
+          <div class="duration-500 group-hover:text-white">
             {{ .Title }}
           </div>
         </a>
@@ -30,7 +30,7 @@
       <li>
         <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
           <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-          <div class="duration-500 group-hover:text-white text-sm">
+          <div class="duration-500 group-hover:text-white">
             {{ .Title }}
           </div>
         </a>
@@ -44,7 +44,7 @@
       <li>
         <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
           <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-          <div class="duration-500 group-hover:text-white text-sm">
+          <div class="duration-500 group-hover:text-white">
             {{ .Title }}
           </div>
         </a>
