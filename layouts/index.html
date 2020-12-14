@@ -1,50 +1,11 @@
-{{ define "main" }}
-<main class="w-full">
-  <div class="bg-white mb-4 py-3 rounded-lg shadow text-center text-sm">
-    <span class="mr-1">最新記事</span>
-    {{ len .Site.RegularPages }}
-    件
-  </div>
-  <div class="grid gap-4 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 mb-4">
-    {{ range (.Paginate ( .Pages.ByLastmod.Reverse )).Pages }}
-    {{ .Render "list" }}
-    {{ end }}
-  </div>
-  <div class="mb-4">
-    {{ partial "pagination.html" . }}
-  </div>
-</main>
-<aside class="hidden max-w-xs w-full xl:inline-block">
-  {{ if .Site.Params.searchEngineID }}
-  <div class="mb-4">
-    {{ partial "google-ads.html" (dict "layout" "search-engine") }}
-  </div>
-  {{ end }}
-  <div class="mb-4">
-    {{ partial "profile-card.html" . }}
-  </div>
-  <div class="mb-4">
-    {{ partial "article-list.html" . }}
-  </div>
-  <div class="mb-4">
-    {{ partial "tag-list.html" . }}
-  </div>
-</aside>
+{{ define "meter" }}
+<span class="mr-2">最新記事</span>
+{{ len .Site.RegularPages }}
+件
 {{ end }}
 
-{{ define "aside" }}
-{{ if .Site.Params.searchEngineID }}
-<div class="mb-4">
-  {{ partial "google-ads.html" (dict "layout" "search-engine") }}
-</div>
+{{ define "articles" }}
+{{ range (.Paginate .Site.RegularPages.ByLastmod.Reverse).Pages }}
+{{ .Render "list" }}
 {{ end }}
-<div class="mb-4">
-  {{ partial "profile-card.html" . }}
-</div>
-<div class="mb-4">
-  {{ partial "article-list.html" . }}
-</div>
-<div class="mb-4">
-  {{ partial "tag-list.html" . }}
-</div>
 {{ end }}
