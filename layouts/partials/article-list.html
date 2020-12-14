@@ -1,8 +1,14 @@
 <div class="bg-white rounded-lg overflow-hidden shadow" x-data="{ tab: {{ .IsPage }} ? 'related' : 'popular' }">
   <header class="flex justify-around text-center text-sm">
-    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'related' }" @click="tab = 'related'" x-show="{{ .IsPage }}">関連記事</button>
-    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'popular' }" @click="tab = 'popular'">人気記事</button>
-    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'latest' }" @click="tab = 'latest'">最新記事</button>
+    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'related' }" @click="tab = 'related'" x-show="{{ .IsPage }}">
+      関連記事
+    </button>
+    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'popular' }" @click="tab = 'popular'">
+      人気記事
+    </button>
+    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'latest' }" @click="tab = 'latest'">
+      最新記事
+    </button>
   </header>
   <div x-show="tab === 'related'">
     <ul>
