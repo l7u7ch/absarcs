@@ -2,8 +2,8 @@
 slug = "how-to-use-tailwind-css"
 image = "c1090e2c651cce9c7b348fd3d5155914.png"
 title = "Tailwind CSS の使い方"
-publishDate = "2020-12-15T14:52:58+0900"
-lastmod = "2020-12-15T14:52:58+0900"
+publishDate = "2020-12-15T16:32:47+0900"
+lastmod = "2020-12-15T16:32:47+0900"
 tags = ["Tailwind CSS"]
 weight = 0
 googleAds = true
@@ -35,7 +35,7 @@ draft = true
 
 　XXX
 
-### 2.3. CDN
+2.3. CDN
 
 　XXX
 
@@ -50,6 +50,10 @@ draft = true
 
 　XXX
 
+Theme
+Variants
+Colors
+
 ## X. Tailwind CSS の最適化
 
 　XXX
@@ -57,6 +61,16 @@ draft = true
 ## X. Tailwind CSS の参考情報
 
 　XXX
+
+[awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss)
+
+[公式ドキュメント](https://tailwindcss.com/docs)
+
+[日本語ドキュメント](https://tailwindcss-ja.entap.app/)
+
+[カラー](https://javisperez.github.io/tailwindcolorshades/)
+
+[コンポーネント](https://tailwindcomponents.com/)
 
 ## X. おわりに
 
