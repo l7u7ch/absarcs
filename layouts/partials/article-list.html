@@ -10,46 +10,40 @@
       最新記事
     </button>
   </header>
-  <div x-show="tab === 'related'">
-    <ul>
-      {{ range .Site.RegularPages.Related . | first 5 }}
-      <li>
-        <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-          <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-          <div class="duration-500 group-hover:text-white">
-            {{ .Title }}
-          </div>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-  <div x-show="tab === 'popular'">
-    <ul>
-      {{ range .Site.RegularPages.ByWeight | first 5 }}
-      <li>
-        <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-          <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-          <div class="duration-500 group-hover:text-white">
-            {{ .Title }}
-          </div>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-  <div x-show="tab === 'latest'">
-    <ul>
-      {{ range .Site.RegularPages.ByLastmod.Reverse | first 5 }}
-      <li>
-        <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-          <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-          <div class="duration-500 group-hover:text-white">
-            {{ .Title }}
-          </div>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
+  <ul x-show="tab === 'related'">
+    {{ range .Site.RegularPages.Related . | first 5 }}
+    <li>
+      <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
+        <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+        <div class="duration-500 group-hover:text-white">
+          {{ .Title }}
+        </div>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  <ul x-show="tab === 'popular'">
+    {{ range .Site.RegularPages.ByWeight | first 5 }}
+    <li>
+      <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
+        <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+        <div class="duration-500 group-hover:text-white">
+          {{ .Title }}
+        </div>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  <ul x-show="tab === 'latest'">
+    {{ range .Site.RegularPages.ByLastmod.Reverse | first 5 }}
+    <li>
+      <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
+        <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+        <div class="duration-500 group-hover:text-white">
+          {{ .Title }}
+        </div>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
 </div>
