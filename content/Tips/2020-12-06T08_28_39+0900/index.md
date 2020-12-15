@@ -1,12 +1,13 @@
 +++
-slug = "tips-vanilla-javascript-lodash-accumulate-dictionary"
+slug = "vanilla-javascript-lodash-accumulate-dictionary"
 image = "d6afde5c20e6612530bd8afaf1695704.png"
 title = "Vanilla JS と Lodash で連想配列を累計する"
 publishDate = "2020-12-06T08:28:39+0900"
-lastmod = "2020-12-06T08:28:39+0900"
-tags = ["Tips", "JavaScript", "Lodash"]
+lastmod = "2020-12-15T14:49:35+0900"
+tags = ["JavaScript", "Lodash"]
 weight = 0
 googleAds = true
+aliases = ["/tips-vanilla-javascript-lodash-accumulate-dictionary"]
 +++
 ## 1. はじめに
 

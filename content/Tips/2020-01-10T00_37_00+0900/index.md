@@ -1,12 +1,12 @@
 +++
-slug = "tips-install-cppunit-ubuntu"
-image = "bfa5517c54296aaae2550ac97434999b.png"
+slug = "install-cppunit-ubuntu"
+image = "ae1faf8242ea4daaf0a837cfa9e066ce.png"
 title = "CppUnit を Ubuntu 18.04 LTS にインストールする"
-publishDate = "2020-01-10T00:37:00+09:00"
-lastmod = "2020-01-10T00:37:00+09:00"
-tags = [ "Tips", "CppUnit", "Ubuntu" ]
+publishDate = "2020-01-10T00:37:00+0900"
+lastmod = "2020-12-15T14:33:22+0900"
+tags = ["CppUnit", "Ubuntu"]
 googleAds = true
-aliases = ["5f06f4bedd034b16cddb9a7f86af7574"]
+aliases = ["/5f06f4bedd034b16cddb9a7f86af7574", "/tips-install-cppunit-ubuntu"]
 +++
 
 ## 1. はじめに

@@ -1,12 +1,13 @@
 +++
-slug = "tips-turning-react-apps-into-desktop-apps-with-electron"
+slug = "turning-react-apps-into-desktop-apps-with-electron"
 image = "45562a0ed573b34514e16ba628fcf473.png"
 title = "React アプリを Electron でデスクトップアプリ化する"
 publishDate = "2020-12-13T13:11:55+0900"
-lastmod = "2020-12-13T13:11:55+0900"
-tags = ["Tips", "React", "Electron"]
+lastmod = "2020-12-15T14:50:43+0900"
+tags = ["React", "Electron"]
 weight = 0
 googleAds = true
+aliases = ["/tips-turning-react-apps-into-desktop-apps-with-electron"]
 +++
 
 ## 1. はじめに
