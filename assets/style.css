@@ -1,5 +1,5 @@
 .content>p {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   line-height: 1.75rem;
 }
 
@@ -25,14 +25,14 @@
 .content>ul {
   line-height: 1.75rem;
   list-style-type: disc;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   padding-left: 2rem;
 }
 
 .content>ol {
   line-height: 1.75rem;
   list-style-type: decimal;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   padding-left: 2rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .highlight {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .highlight>* {
@@ -74,7 +74,7 @@
 }
 
 .footnotes>hr {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .footnote-backref,
