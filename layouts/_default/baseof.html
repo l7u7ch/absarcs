@@ -42,6 +42,9 @@
         {{ partial "article-list.html" . }}
       </div>
       <div class="mb-4">
+        {{ partial "category-list" (.GetPage "/") }}
+      </div>
+      <div class="mb-4">
         {{ partial "tag-list.html" . }}
       </div>
       {{ end }}
