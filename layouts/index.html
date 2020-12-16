@@ -1,7 +1,10 @@
-{{ define "meter" }}
-<span class="mr-2">最新記事</span>
-{{ len .Site.RegularPages }}
-件
+{{ define "headline" }}
+<span class="mr-2">
+  最新記事
+</span>
+<span class="border flex h-6 items-center justify-center rounded-full text-xs w-6">
+  {{ len .Site.RegularPages }}
+</span>
 {{ end }}
 
 {{ define "articles" }}
