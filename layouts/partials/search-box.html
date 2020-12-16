@@ -1,0 +1,49 @@
+<div class="bg-white overflow-hidden rounded-lg shadow text-sm">
+  <header class="border-b py-3 text-center">
+    記事検索
+  </header>
+  <div class="p-4">
+    <!-- Google Search -->
+    {{ if .Site.Params.searchEngineID }}
+    <div class="mb-4">
+      <form id="cse-search-box" action="https://google.com/cse" target="_blank" class="flex h-9 ">
+        <input type="hidden" name="cx" value="7d4fbdf46b543edda" />
+        <input type="text" name="q" placeholder="- キーワードで検索する -" class="w-full rounded-l-lg focus:border-gray-200 focus:ring-0  border-gray-200 text-sm" />
+        <button type="submit" class="w-1/3 duration-500  border hover:text-primary border-primary  bg-primary text-white rounded-r-lg hover:bg-white">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+    {{ end }}
+    <!-- /Google Search -->
+    <!-- Category -->
+    <select class="border-gray-200 focus:border-gray-200 focus:ring-0 mb-4 rounded-lg text-sm  w-full" name="tag" onChange="location.href=value;">
+      <option class="text-base" selected>
+        - カテゴリーで検索する -
+      </option>
+      {{ range .Site.Sections }}
+      <option class="text-base" value="{{.Permalink}}">
+        {{ .Title }} ({{ len .RegularPagesRecursive }})
+      </option>
+      {{ range .Sections }}
+      <option class="text-base" value="{{.Permalink}}">
+        &nbsp;>&nbsp;{{ .Title }} ({{ len .RegularPagesRecursive }})
+      </option>
+      {{ end }}
+      {{ end }}
+    </select>
+    <!-- /Category -->
+    <!-- Tag -->
+    <select class="border-gray-200 focus:border-gray-200 focus:ring-0 rounded-lg text-sm  w-full" name="tag" onChange="location.href=value;">
+      <option class="text-base" selected>
+        - タグで検索する -
+      </option>
+      {{ range .Site.Taxonomies.tags.ByCount }}
+      <option class="text-base" value="{{ $.Site.BaseURL }}/tags/{{ .Name }}">
+        {{ .Page.Title }} ({{ .Count }})
+      </option>
+      {{ end }}
+    </select>
+    <!-- /Tag -->
+  </div>
+</div>

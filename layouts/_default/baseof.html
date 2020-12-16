@@ -30,11 +30,6 @@
     <!-- aside -->
     <aside class="hidden max-w-xs w-full xl:inline-block">
       {{ block "aside" . }}
-      {{ if .Site.Params.searchEngineID }}
-      <div class="mb-4">
-        {{ partial "google-ads.html" (dict "layout" "search-engine") }}
-      </div>
-      {{ end }}
       <div class="mb-4">
         {{ partial "profile-card.html" . }}
       </div>
@@ -42,10 +37,7 @@
         {{ partial "article-list.html" . }}
       </div>
       <div class="mb-4">
-        {{ partial "category-list" (.GetPage "/") }}
-      </div>
-      <div class="mb-4">
-        {{ partial "tag-list.html" . }}
+        {{ partial "search-box.html" . }}
       </div>
       {{ end }}
     </aside>
@@ -66,6 +58,10 @@
   </button> -->
   <!-- /Off-Canvas -->
 
+
+
 </body>
+
+
 
 </html>

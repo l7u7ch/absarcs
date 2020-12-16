@@ -20,6 +20,6 @@
   {{ with .Site.Params.googleAdsClientID }}
   <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
   {{ end }}
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" async></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
   {{ template "_internal/google_analytics_async.html" . }}
 </head>
