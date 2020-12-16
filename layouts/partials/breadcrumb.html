@@ -1,0 +1,38 @@
+<ol class="flex flex-wrap">
+  {{ template "breadcrumb" . }}
+</ol>
+{{ define "breadcrumb" }}
+{{ if .IsHome }}
+<li>
+  <a class="duration-500 hover:text-primary" href="{{.Permalink}}">
+    <i class="fas fa-home mr-2"></i>
+    <span class="mr-2">
+      Home
+    </span>
+  </a>
+</li>
+{{ else if .IsPage }}
+{{ template "breadcrumb" .Parent }}
+<li class="mr-2">
+  /
+</li>
+<li>
+  <span class="mr-2">
+    {{ .Title }}
+  </span>
+</li>
+{{ else if .Parent }}
+{{ template "breadcrumb" .Parent }}
+<li class="mr-2">
+  /
+</li>
+<li>
+  <a class="duration-500 hover:text-primary" href="{{.Permalink}}">
+    <i class="fas fa-folder mr-2"></i>
+    <span class="mr-2">
+      {{ .Title }}
+    </span>
+  </a>
+</li>
+{{ end }}
+{{ end }}
