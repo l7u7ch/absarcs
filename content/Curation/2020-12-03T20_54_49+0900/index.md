@@ -1,13 +1,15 @@
 +++
-slug = "survey-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"
+slug = "hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"
 image = "cfc29025d9a0575216282544e099e8d0.png"
 title = "Hugo + Tailwind CSS + Alpine.js + Netlify CMS を用いた JAMStack なブログサイトの開発後記"
-publishDate = "2020-12-03T20:54:49+09:00"
-lastmod = "2020-12-03T20:54:49+09:00"
-tags = ["Survey", "Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
+publishDate = "2020-12-03T20:54:49+0900"
+lastmod = "2020-12-16T22:24:19+0900"
+tags = ["Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
 googleAds = true
+aliases = ["/survey-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"]
 +++
+
 ## 1. はじめに
 
 　本ブログサイトは，Go 言語製の静的サイトジェネレーターである Hugo とユーティリティ指向の CSS フレームワークである Tailwind CSS，軽量型の JavaScript フレームワークである Alpine.js，Netlify 社が提供している静的ウェブサイトである Netlify，同じく Netlify 社が提供しているヘッドレス CMS である Netlify CMS を用いて構築しています。
