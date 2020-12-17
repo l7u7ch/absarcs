@@ -1,10 +1,10 @@
 +++
-slug = "tailwindcss-learning-development-support-site-tool"
+slug = "tailwind-css-learning-development-support-site-tool"
 image = "c1090e2c651cce9c7b348fd3d5155914.png"
 title = "Tailwind CSS の学習と開発を支援するサイトとツール"
 publishDate = "2020-12-16T22:21:31+0900"
 lastmod = "2020-12-16T22:21:31+0900"
-tags = ["Tailwind CSS"]
+tags = ["Tailwind CSS", "CSS"]
 weight = 0
 googleAds = true
 draft = true
