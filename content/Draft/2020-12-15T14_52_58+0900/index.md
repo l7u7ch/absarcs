@@ -2,8 +2,8 @@
 slug = "tailwind-css-learning-development-support-site-tool"
 image = "c1090e2c651cce9c7b348fd3d5155914.png"
 title = "Tailwind CSS の学習と開発を支援するサイトとツール"
-publishDate = "2020-12-16T22:21:31+0900"
-lastmod = "2020-12-16T22:21:31+0900"
+publishDate = "2020-12-18T00:46:00+0900"
+lastmod = "2020-12-18T00:46:00+0900"
 tags = ["Tailwind CSS", "CSS"]
 weight = 0
 googleAds = true
@@ -12,66 +12,44 @@ draft = true
 
 ## 1. はじめに
 
-　[Tailwind CSS](https://tailwindcss.com/) は，FLOSS で開発されているユーティリティ指向の CSS フレームワークです。[Bootstrap](https://getbootstrap.com/) や [UIkit](https://getuikit.com/) などのコンポーネント指向の CSS フレームワークと比較すると知名度は高くないですが，新しいパラダイムの CSS フレームワークとして注目され初めています。
+　[Tailwind CSS](https://tailwindcss.com/) は，FLOSS で開発されているユーティリティ指向の CSS フレームワークです。[Bootstrap](https://getbootstrap.com/) や [UIkit](https://getuikit.com/) などのコンポーネント指向の CSS フレームワークと比較すると知名度は高くないですが，新しいパラダイムの CSS フレームワークとして注目され初めています。本記事では，Tailwind CSS の学習と開発を支援するサイトとツールを厳選して紹介します。
 
-　本ブログサイトも Tailwind CSS を用いて開発しています。
+## 2. Awesome Tailwind CSS
 
-本記事では，Tailwind CSS を用いて Web サイトや Web アプリを開発，リリースするのに必要な最低限
+[![Awesome Tailwind CSS](2679619dbf794357f2eeb5c28c0858fb.png)](https://github.com/aniftyco/awesome-tailwindcss)
 
- を初めて触る初心者に向け
+## 3. Meraki UI
 
-　また，本記事内で行っている作業は，以下の環境下で実行したものです。以降，これらのツールはインストール済みの前提で記述していますが，インストール手順は割愛しているので，ご了承下さい。
+[![Meraki UI](217465a5973ff6fd2b69fecf9ade09cf.png)](https://merakiui.com)
 
-* npm Ver.6.14.9
-* Zorin OS 15.2 Core (Ubuntu 18.04 LTS)
+## 4. tailblocks
 
-## 2. Tailwind CSS のインストール
+[![tailblocks](b9997d470c2b6e133c13eb28c8c6bad1.png)](https://mertjf.github.io/tailblocks/)
 
-### 2.1. PostCSS Plugin
+## 5. Tailwind Color Shades Generator
 
-　XXX
+[![Tailwind Color Shades Generator](dd11902e874b78895d963c455335a15f.png)](https://javisperez.github.io/tailwindcolorshades/)
 
-### 2.2. Tailwind CLI
+## 6. Tailwind Components
 
-　XXX
+[![Tailwind Components](34c66f1a6956db7e949ee5f836363a82.png)](https://tailwindcomponents.com/)
 
-2.3. CDN
+## 7. Tailwind Toolbox
 
-　XXX
+[![Tailwind Toolbox](ddb3c6095f43d8d3b723c119a7a8609a.png)](https://www.tailwindtoolbox.com)
 
+## 8. Tailwind UI
 
-* You can't customize Tailwind's default theme
-* You can't use any directives like @apply, @variants, etc.
-* You can't enable additional variants like group-focus
-* You can't install third-party plugins
-* You can't tree-shake unused styles
+[![Tailwind UI](591dae01cc25ade96d0c341a96c079b2.png)](https://tailwindui.com/components)
 
-## X. Tailwind CSS のカスタマイズ
+## 9. 公式ドキュメント
 
-　XXX
+[![公式ドキュメント](efc5e8c1bae6e79f07c2940a1ee509bb.png)](https://tailwindcss.com/docs)
 
-Theme
-Variants
-Colors
+## 10. 日本語ドキュメント
 
-## X. Tailwind CSS の最適化
+[![日本語ドキュメント](96972e2bdd606ada4efa935337f7b174.png)](https://tailwindcss-ja.entap.app/)
 
-　XXX
-
-## X. Tailwind CSS の参考情報
-
-　XXX
-
-[awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss)
-
-[公式ドキュメント](https://tailwindcss.com/docs)
-
-[日本語ドキュメント](https://tailwindcss-ja.entap.app/)
-
-[カラー](https://javisperez.github.io/tailwindcolorshades/)
-
-[コンポーネント](https://tailwindcomponents.com/)
-
-## X. おわりに
+## 11. おわりに
 
 　XXX
