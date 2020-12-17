@@ -1,10 +1,10 @@
 +++
-slug = "how-to-use-tailwind-css"
+slug = "install-tailwind-css"
 image = "c1090e2c651cce9c7b348fd3d5155914.png"
-title = "Tailwind CSS の使い方"
+title = "Tailwind CSS をインストールする"
 publishDate = "2020-12-15T16:32:47+0900"
 lastmod = "2020-12-15T16:32:47+0900"
-tags = ["Tailwind CSS"]
+tags = ["Tailwind CSS", "CSS"]
 weight = 0
 googleAds = true
 draft = true
