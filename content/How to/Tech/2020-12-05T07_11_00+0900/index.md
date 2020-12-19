@@ -7,7 +7,11 @@ lastmod = "2020-12-15T14:47:53+0900"
 tags = ["React"]
 weight = 0
 googleAds = true
-aliases = ["/tips-minimize-generated-react-app-create-react-app", "/minimize-generated-react-app-create-react-app"]
+aliases = [
+  "/tips-minimize-generated-react-app-create-react-app",
+  "/minimize-generated-react-app-create-react-app",
+  "/tips/minimize-react-app",
+]
 +++
 
 ## 1. はじめに
