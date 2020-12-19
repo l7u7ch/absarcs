@@ -7,6 +7,9 @@ lastmod = "2020-12-18T02:08:46+0900"
 tags = ["Tailwind CSS", "CSS"]
 weight = 0
 googleAds = true
+aliases = [
+  "/curation/tailwind-css-learning-development-support-site-tool",
+]
 +++
 
 ## 1. はじめに
