@@ -8,8 +8,8 @@ tags = ["Algolia", "JavaScript", "Vue.js" ]
 googleAds = true
 aliases = [
   "/437f787b129cf1a9cf63af2b0cff11e1",
-  "/tips-switch-real-time-search-optional-search-algolia"
-  "/tips/switch-real-time-search-optional-search-algolia"
+  "/tips-switch-real-time-search-optional-search-algolia",
+  "/tips/switch-real-time-search-optional-search-algolia",
 ]
 +++
 
