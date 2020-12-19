@@ -4,9 +4,12 @@ image = "e92c9d9b3ef0438ce3d31b7cb3be450d.png"
 title = "Ryzen 5 3500 + B450M Pro4 + GTX 1650 で組むゲーミング PC レシピ"
 publishDate = "2020-09-21T08:15:24+09:00"
 lastmod = "2020-12-16T22:23:19+0900"
-tags = [ "Survey", "Game", "PC" ]
+tags = ["PC"]
 googleAds = true
-aliases = ["/survey-build-gaming-pc-ryzen"]
+aliases = [
+  "/survey-build-gaming-pc-ryzen",
+  "/curation/build-gaming-pc-ryzen-asrock-geforce",
+]
 +++
 
 ## 1. はじめに
