@@ -6,7 +6,11 @@ publishDate = "2020-07-09T03:58:24+0900"
 lastmod = "2020-12-15T14:43:33+0900"
 tags = ["JavaScript", "Lodash"]
 googleAds = true
-aliases = ["/tips-vanilla-javascript-lodash-group-by-sum", "/tips-vanilla-javascript-lodash-group-by-sum-dictionary"]
+aliases = [
+  "/tips-vanilla-javascript-lodash-group-by-sum",
+  "/tips-vanilla-javascript-lodash-group-by-sum-dictionary",
+  "/tips/vanilla-javascript-lodash-group-by-sum-dictionary",
+]
 +++
 
 ## 1. はじめに
