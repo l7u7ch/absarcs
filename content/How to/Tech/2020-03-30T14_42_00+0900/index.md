@@ -8,8 +8,8 @@ tags = ["Algolia", "JavaScript", "Vue.js"]
 googleAds = true
 aliases = [
   "/f226c45aa794459e5f203822c1a49624",
-  "tips-implement-url-routing-algolia-instantsearch-js"
-  "tips/implement-url-routing-algolia-instantsearch-js"
+  "tips-implement-url-routing-algolia-instantsearch-js",
+  "tips/implement-url-routing-algolia-instantsearch-js",
 ]
 +++
 
