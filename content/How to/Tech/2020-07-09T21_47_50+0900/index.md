@@ -6,7 +6,10 @@ publishDate = "2020-07-09T21:47:50+0900"
 lastmod = "2020-12-15T14:45:26+0900"
 tags = ["React", "Recharts"]
 googleAds = true
-aliases = ["/tips-react-recharts-axis-datetime"]
+aliases = [
+  "/tips-react-recharts-axis-datetime",
+  "/tips/react-recharts-axis-datetime",
+]
 +++
 
 ## 1. はじめに
