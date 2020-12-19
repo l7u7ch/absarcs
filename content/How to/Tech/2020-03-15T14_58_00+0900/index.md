@@ -6,7 +6,11 @@ publishDate = "2020-03-15T14:58:00+0900"
 lastmod = "2020-12-15T14:38:47+0900"
 tags = ["Algolia"]
 googleAds = true
-aliases = ["/786da85d3e7603308b182cc8fed19214", "/tips-build-ui-demo-env-algolia"]
+aliases = [
+  "/786da85d3e7603308b182cc8fed19214",
+  "/tips-build-ui-demo-env-algolia",
+  "/tips/build-ui-demo-env-algolia",
+]
 +++
 
 ## 1. はじめに
