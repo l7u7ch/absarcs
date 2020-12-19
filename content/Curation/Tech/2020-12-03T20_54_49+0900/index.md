@@ -7,7 +7,10 @@ lastmod = "2020-12-16T22:24:19+0900"
 tags = ["Hugo", "Tailwind CSS", "Alpine.js", "Netlify CMS"]
 weight = 0
 googleAds = true
-aliases = ["/survey-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog"]
+aliases = [
+  "/survey-hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog",
+  "/curation/hugo-tailwindcss-alpinejs-netlify-cms-development-jamstack-blog",
+]
 +++
 
 ## 1. はじめに
