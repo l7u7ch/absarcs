@@ -6,7 +6,11 @@ publishDate = "2020-01-10T00:37:00+0900"
 lastmod = "2020-12-15T14:33:22+0900"
 tags = ["CppUnit", "Ubuntu"]
 googleAds = true
-aliases = ["/5f06f4bedd034b16cddb9a7f86af7574", "/tips-install-cppunit-ubuntu"]
+aliases = [
+  "/5f06f4bedd034b16cddb9a7f86af7574",
+  "/tips-install-cppunit-ubuntu",
+  "/tips/install-cppunit-ubuntu",
+]
 +++
 
 ## 1. はじめに
