@@ -12,38 +12,43 @@
   </header>
   <ul x-show="tab === 'related'">
     {{ range .Site.RegularPages.Related . | first 5 }}
-    <li>
-      <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-        <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-        <div class="duration-500 group-hover:text-white">
-          {{ .Title }}
-        </div>
-      </a>
-    </li>
+    {{ template "article-list__article" . }}
     {{ end }}
   </ul>
   <ul x-show="tab === 'popular'">
     {{ range .Site.RegularPages.ByWeight | first 5 }}
-    <li>
-      <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-        <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-        <div class="duration-500 group-hover:text-white">
-          {{ .Title }}
-        </div>
-      </a>
-    </li>
+    {{ template "article-list__article" . }}
     {{ end }}
   </ul>
   <ul x-show="tab === 'latest'">
     {{ range .Site.RegularPages.ByLastmod.Reverse | first 5 }}
-    <li>
-      <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-        <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-        <div class="duration-500 group-hover:text-white">
-          {{ .Title }}
-        </div>
-      </a>
-    </li>
+    {{ template "article-list__article" . }}
     {{ end }}
   </ul>
 </div>
+
+{{ define "article-list__article" }}
+<li>
+  <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
+    <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+    <div class="duration-500 group-hover:text-white">
+      <div class="mb-2">
+        {{ .Title }}
+      </div>
+      <div class="flex justify-between items-center text-xs">
+        <span class="border px-2 py-1 rounded-full">
+          {{ if .CurrentSection.IsSection }}
+          {{ .CurrentSection.Title }}
+          {{ else }}
+          Uncategorized
+          {{ end }}
+        </span>
+        <span>
+          <i class="far fa-clock mr-1"></i>
+          {{ .Lastmod.Format "2006-01-02" }}
+        </span>
+      </div>
+    </div>
+  </a>
+</li>
+{{ end }}
