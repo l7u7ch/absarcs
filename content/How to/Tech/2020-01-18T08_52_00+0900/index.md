@@ -6,7 +6,11 @@ publishDate = "2020-01-18T08:52:00+0900"
 lastmod = "2020-12-15T14:34:25+0900"
 tags = ["JAIST", "Linux"]
 googleAds = true
-aliases = ["/52ce158c36a7b68357c0240ed889d682", "/tips-connect-jaist-campus-wireless-lan-linux"]
+aliases = [
+  "/52ce158c36a7b68357c0240ed889d682",
+  "/tips-connect-jaist-campus-wireless-lan-linux",
+  "/tips/connect-jaist-campus-wireless-lan-linux",
+]
 +++
 
 ## 1. はじめに
