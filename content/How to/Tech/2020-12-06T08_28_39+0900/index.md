@@ -7,8 +7,12 @@ lastmod = "2020-12-15T14:49:35+0900"
 tags = ["JavaScript", "Lodash"]
 weight = 0
 googleAds = true
-aliases = ["/tips-vanilla-javascript-lodash-accumulate-dictionary"]
+aliases = [
+  "/tips-vanilla-javascript-lodash-accumulate-dictionary",
+  "/tips/vanilla-javascript-lodash-accumulate-dictionary",
+]
 +++
+
 ## 1. はじめに
 
 　本記事では，JavaScript を用いて以下ような連想配列を累計する方法について考えます。様々な実装方法が考えられますが，本記事では Vanilla JS を用いた方法とユーティリティライブラリである [Lodash](https://lodash.com/) を用いた方法について記述します。
