@@ -4,7 +4,7 @@ image = "0a3107b790102ed856accbbb843fa5d4.png"
 title = "Algolia のフロントエンドをリアルタイム検索から任意検索に切り替える"
 publishDate = "2020-04-07T03:17:00+0900"
 lastmod = "2020-12-15T14:42:37+0900"
-tags = ["Algolia", "JavaScript", "Vue.js" ]
+tags = ["Tech", "Algolia", "JavaScript", "Vue.js" ]
 googleAds = true
 aliases = [
   "/437f787b129cf1a9cf63af2b0cff11e1",

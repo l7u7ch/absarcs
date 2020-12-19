@@ -4,7 +4,7 @@ image = "3895eb909f2531845581c2798210e1e4.png"
 title = "curl を用いて pixiv API を呼び出す"
 publishDate = "2018-12-05T00:00:00+0900"
 lastmod = "2020-12-15T14:27:21+0900"
-tags = ["curl", "pixiv"]
+tags = ["Tech", "curl", "pixiv"]
 googleAds = true
 aliases = [
   "/ea9a8f53114ee03c9963a2e0ea583c75",

@@ -4,7 +4,7 @@ image = "0a3107b790102ed856accbbb843fa5d4.png"
 title = "Python 3 を用いて Algolia の Index を取得する"
 publishDate = "2020-03-15T17:35:00+0900"
 lastmod = "2020-12-15T14:39:55+0900"
-tags = ["Algolia", "Python"]
+tags = ["Tech", "Algolia", "Python"]
 googleAds = true
 aliases = [
   "/e9f13a57370909374d7d35a5a1244f0d",

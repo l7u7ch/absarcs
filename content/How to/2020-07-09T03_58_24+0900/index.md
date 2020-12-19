@@ -4,7 +4,7 @@ image = "d6afde5c20e6612530bd8afaf1695704.png"
 title = "Vanilla JS と Lodash で連想配列を GROUP BY + SUM する"
 publishDate = "2020-07-09T03:58:24+0900"
 lastmod = "2020-12-15T14:43:33+0900"
-tags = ["JavaScript", "Lodash"]
+tags = ["Tech", "JavaScript", "Lodash"]
 googleAds = true
 aliases = [
   "/tips-vanilla-javascript-lodash-group-by-sum",

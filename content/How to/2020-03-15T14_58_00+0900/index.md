@@ -4,7 +4,7 @@ image = "0a3107b790102ed856accbbb843fa5d4.png"
 title = "Algolia が提供している動作検証機能の『UI Demos』を構築する"
 publishDate = "2020-03-15T14:58:00+0900"
 lastmod = "2020-12-15T14:38:47+0900"
-tags = ["Algolia"]
+tags = ["Tech", "Algolia"]
 googleAds = true
 aliases = [
   "/786da85d3e7603308b182cc8fed19214",

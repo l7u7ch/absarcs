@@ -4,7 +4,7 @@ image = "03d02b8fb9fec8eb73908312e42dfd48.png"
 title = "Recharts の X 軸に日時を表示させる"
 publishDate = "2020-07-09T21:47:50+0900"
 lastmod = "2020-12-15T14:45:26+0900"
-tags = ["React", "Recharts"]
+tags = ["Tech", "React", "Recharts"]
 googleAds = true
 aliases = [
   "/tips-react-recharts-axis-datetime",
