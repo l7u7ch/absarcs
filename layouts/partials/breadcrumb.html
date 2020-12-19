@@ -11,16 +11,6 @@
     </span>
   </a>
 </li>
-{{ else if .IsPage }}
-{{ template "breadcrumb" .Parent }}
-<li class="mr-2">
-  /
-</li>
-<li>
-  <span class="mr-2">
-    {{ .Title }}
-  </span>
-</li>
 {{ else if .Parent }}
 {{ template "breadcrumb" .Parent }}
 <li class="mr-2">
