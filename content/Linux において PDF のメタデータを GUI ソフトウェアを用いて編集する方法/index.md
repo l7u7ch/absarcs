@@ -4,7 +4,7 @@ image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Linux において PDF のメタデータを GUI ソフトウェアを用いて編集する方法"
 publishDate = "2019-09-03T00:00:00+09:00"
 lastmod = "2019-09-09T00:00:00+09:00"
-tags = ["Tips", "Linux", "PDF"]
+tags = ["Linux", "PDF"]
 googleAds = true
 +++
 

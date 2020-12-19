@@ -4,7 +4,7 @@ image = "2620ddaf171086ed984cf61b8d05795b.png"
 title = "Hugo において JavaScript を用いずに擬似的な無限スクロールを実装する"
 publishDate = "2019-10-23T11:39:00+09:00"
 lastmod = "2019-10-23T21:41:00+09:00"
-tags = ["Tips", "Hugo"]
+tags = ["Hugo"]
 googleAds = true
 +++
 

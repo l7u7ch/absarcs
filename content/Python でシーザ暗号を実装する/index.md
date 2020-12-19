@@ -4,7 +4,7 @@ image = "e7d8548680b6123c2361613f3ea0de1a.png"
 title = "Python でシーザ暗号を実装する"
 publishDate = "2018-01-01T00:00:00+09:00"
 lastmod = "2018-12-20T00:00:00+09:00"
-tags = ["Tips", "Python"]
+tags = ["Python"]
 googleAds = true
 +++
 

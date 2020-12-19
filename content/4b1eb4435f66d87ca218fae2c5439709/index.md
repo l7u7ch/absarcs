@@ -3,7 +3,7 @@ image = "87723fff3efdb01577cd12d8b5501cfe-min.png"
 title = "JavaScript 製の広告ブロック検知ライブラリ BlockAdBlock の使い方"
 publishDate = "2020-03-08T22:31:00+09:00"
 lastmod = "2020-03-12T06:46:00+09:00"
-tags = ["Tips", "JavaScript", "BlockAdBlock"]
+tags = ["JavaScript", "BlockAdBlock"]
 googleAds = true
 +++
 

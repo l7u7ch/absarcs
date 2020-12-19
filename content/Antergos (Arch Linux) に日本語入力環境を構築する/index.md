@@ -4,7 +4,7 @@ image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Antergos (Arch Linux) に日本語入力環境を構築する"
 publishDate = "2018-01-01T00:00:00+09:00"
 lastmod = "2018-12-19T00:00:00+09:00"
-tags = ["Tips", "Linux", "Antergos", "ArchLinux"]
+tags = ["Linux", "Antergos", "ArchLinux"]
 googleAds = true
 +++
 

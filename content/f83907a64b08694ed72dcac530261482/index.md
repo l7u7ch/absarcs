@@ -3,7 +3,7 @@ image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
 title = "Zotero を Ubuntu にインストールする方法"
 publishDate = "2020-01-03T01:14:00+09:00"
 lastmod = "2020-04-10T05:22:00+09:00"
-tags = ["Tips", "Linux", "Ubuntu", "Zotero"]
+tags = ["Linux", "Ubuntu", "Zotero"]
 googleAds = true
 +++
 

@@ -4,7 +4,7 @@ image = "8c70c4a1bbd066c471737212ad25c008.png"
 title = "自分の学習スタイルに合った技術書の見極め方"
 publishDate = "2018-02-14T00:00:00+09:00"
 lastmod = "2018-02-14T00:00:00+09:00"
-tags = ["Column"]
+tags = []
 googleAds = true
 +++
 
