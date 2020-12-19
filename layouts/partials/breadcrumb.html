@@ -4,7 +4,7 @@
 {{ define "breadcrumb" }}
 {{ if .IsHome }}
 <li>
-  <a class="duration-500 hover:text-primary" href="{{.Permalink}}">
+  <a class="duration-500 hover:text-primary" href="{{ .Permalink }}">
     <i class="fas fa-home mr-2"></i>
     <span class="mr-2">
       Home
@@ -27,7 +27,7 @@
   /
 </li>
 <li>
-  <a class="duration-500 hover:text-primary" href="{{.Permalink}}">
+  <a class="duration-500 hover:text-primary" href="{{ .Permalink }}">
     <i class="fas fa-folder mr-2"></i>
     <span class="mr-2">
       {{ .Title }}

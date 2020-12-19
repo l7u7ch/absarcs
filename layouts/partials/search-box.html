@@ -23,11 +23,11 @@
       </option>
       {{ range .Site.Sections }}
       {{ if (len .RegularPagesRecursive) }}
-      <option class="text-base" value="{{.Permalink}}">
+      <option class="text-base" value="{{ .Permalink }}">
         {{ .Title }} ({{ len .RegularPagesRecursive }})
       </option>
       {{ range .Sections }}
-      <option class="text-base" value="{{.Permalink}}">
+      <option class="text-base" value="{{ .Permalink }}">
         &nbsp;>&nbsp;{{ .Title }} ({{ len .RegularPagesRecursive }})
       </option>
       {{ end }}
