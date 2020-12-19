@@ -6,7 +6,11 @@ publishDate = "2020-03-30T14:42:00+0900"
 lastmod = "2020-12-15T14:41:35+0900"
 tags = ["Algolia", "JavaScript", "Vue.js"]
 googleAds = true
-aliases = ["/f226c45aa794459e5f203822c1a49624", "tips-implement-url-routing-algolia-instantsearch-js"]
+aliases = [
+  "/f226c45aa794459e5f203822c1a49624",
+  "tips-implement-url-routing-algolia-instantsearch-js"
+  "tips/implement-url-routing-algolia-instantsearch-js"
+]
 +++
 
 ## 1. はじめに
