@@ -6,7 +6,11 @@ publishDate = "2020-03-15T17:35:00+0900"
 lastmod = "2020-12-15T14:39:55+0900"
 tags = ["Algolia", "Python"]
 googleAds = true
-aliases = ["/e9f13a57370909374d7d35a5a1244f0d", "/tips-get-algolia-index-python"]
+aliases = [
+  "/e9f13a57370909374d7d35a5a1244f0d",
+  "/tips-get-algolia-index-python",
+  "/tips/get-algolia-index-python",
+]
 +++
 
 ## 1. はじめに
