@@ -6,7 +6,11 @@ publishDate = "2020-04-07T03:17:00+0900"
 lastmod = "2020-12-15T14:42:37+0900"
 tags = ["Algolia", "JavaScript", "Vue.js" ]
 googleAds = true
-aliases = ["/437f787b129cf1a9cf63af2b0cff11e1", "/tips-switch-real-time-search-optional-search-algolia"]
+aliases = [
+  "/437f787b129cf1a9cf63af2b0cff11e1",
+  "/tips-switch-real-time-search-optional-search-algolia"
+  "/tips/switch-real-time-search-optional-search-algolia"
+]
 +++
 
 ## 1. はじめに
