@@ -7,7 +7,10 @@ lastmod = "2020-12-15T14:50:43+0900"
 tags = ["React", "Electron"]
 weight = 0
 googleAds = true
-aliases = ["/tips-turning-react-apps-into-desktop-apps-with-electron"]
+aliases = [
+  "/tips-turning-react-apps-into-desktop-apps-with-electron",
+  "/tips/turning-react-apps-into-desktop-apps-with-electron",
+]
 +++
 
 ## 1. はじめに
