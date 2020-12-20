@@ -1,27 +1,24 @@
 +++
-slug = "beeafc4b62c78ef5c7b91ac1f4143582"
-image = ""
-title = "Windows の設定と対応する ms-settings の一覧表"
-publishDate = "2019-04-18T00:00:00+09:00"
-lastmod = "2019-05-14T00:00:00+09:00"
-tags = [ "Windows" ]
+slug = "correspondence-table-windows-10-settings-ms-settings"
+image = "02adee7ca64e12ba5ddb652588327d00.png"
+title = "Windows 10 の設定項目と ms-settings の対応表"
+publishDate = "2019-04-18T00:00:00+0900"
+lastmod = "2020-12-21T04:02:50+0900"
+tags = ["Tech", "Windows"]
 googleAds = true
+aliases = ["/beeafc4b62c78ef5c7b91ac1f4143582"]
 +++
 
 ## 1. はじめに
 
-　Windows 10 では，ms-settings と呼ばれる URI スキームを用いることで設定アプリを起動することが可能である。ms-settings に関する情報は [Microsoft Docs](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app) に公開されている。しかし，アルファベットの昇順でソートされているため対応する設定項目が見つけづらい。そこで，実際の Windows の設定と対応する ms-settings の一覧表を公開する。
+　Windows 10 では，ms-settings と呼ばれる URI スキームを用いることで設定アプリを起動することが可能です。ms-settings に関する情報は [Microsoft Docs](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app) に公開されています。しかし，アルファベットの昇順でソートされているため，対応する設定項目が見つけづらいです。そこで，実際の Windows 10 の設定項目と ms-settings の対応表を作成しました。
 
-## 2. 環境情報
+　また，本記事で公開している対応表は，以下の環境下で表示されている設定項目のみを抽出して作成しています。そのため，Windows 10 のバージョンや PC のモデルによって，表示されていない設定項目や ms-settings が存在する場合があります。その点はご了承下さい。
 
-　一覧表は以下の環境下で作成したものである。
+* Windows 10 Home Ver.1803 on Surface Pro 6
+* Windows 10 Pro Ver.1809 on ThinkPad X260
 
- * Windows 10 Home Ver.1803 on Surface Pro 6
- * Windows 10 Pro Ver.1809 on ThinkPad X260
-
-## 3. ms-settings
-
-### 3.1. システム
+## 2. システム
 
 |設定項目|URI|
 |---|---|
@@ -40,7 +37,7 @@ googleAds = true
 |リモートデスクトップ|remotedesktop|
 |バージョン情報|about|
 
-### 3.2. デバイス
+## 3. デバイス
 
 |設定項目|URI|
 |---|---|
@@ -53,13 +50,13 @@ googleAds = true
 |自動再生|autoplay|
 |USB|usb|
 
-### 3.3. 電話
+## 4. 電話
 
 |設定項目|URI|
 |---|---|
 |電話|mobile-devices|
 
-### 3.4. ネットワークとインターネット
+## 5. ネットワークとインターネット
 
 |設定項目|URI|
 |---|---|
@@ -73,7 +70,7 @@ googleAds = true
 |データ使用状況|datausage|
 |プロキシ|network-proxy|
 
-### 3.5. 個人用設定
+## 6. 個人用設定
 
 |設定項目|URI|
 |---|---|
@@ -85,7 +82,7 @@ googleAds = true
 |スタート|personalization-start-places|
 |タスクバー|taskbar|
 
-### 3.6. アプリ
+## 7. アプリ
 
 |設定項目|URI|
 |---|---|
@@ -96,7 +93,7 @@ googleAds = true
 |ビデオの再生|videoplayback|
 |スタートアップ|startupapps|
 
-### 3.7. アカウント
+## 8. アカウント
 
 |設定項目|URI|
 |---|---|
@@ -107,7 +104,7 @@ googleAds = true
 |家族とその他のユーザー|otherusers|
 |設定の同期|sync|
 
-### 3.8. 時刻と言語
+## 9. 時刻と言語
 
 |設定項目|URI|
 |---|---|
@@ -116,7 +113,7 @@ googleAds = true
 |言語|regionlanguage|
 |音声認識|speech|
 
-### 3.9. ゲーム
+## 10. ゲーム
 
 |設定項目|URI|
 |---|---|
@@ -126,7 +123,7 @@ googleAds = true
 |ゲームモード|gaming-gamemode|
 |Xbox ネットワーク|gaming-xboxnetworking|
 
-### 3.10. 簡単操作
+## 11.  簡単操作
 
 |設定項目|URI|
 |---|---|
@@ -143,7 +140,7 @@ googleAds = true
 |マウス|easeofaccess-mouse|
 |視線制御|easeofaccess-eyecontrol|
 
-### 3.11. Cortana
+## 12.  Cortana
 
 |設定項目|URI|
 |---|---|
@@ -152,7 +149,7 @@ googleAds = true
 |デバイス間での Cortana|cortana-notifications|
 |詳細情報|cortana-moredetails|
 
-### 3.12. プライバシー
+## 13.  プライバシー
 
 |設定項目|URI|
 |---|---|
@@ -182,7 +179,7 @@ googleAds = true
 |ビデオ|privacy-videos|
 |ファイルシステム|privacy-broadfilesystemaccess|
 
-### 3.13. 更新とセキュリティ
+## 14.  更新とセキュリティ
 
 |設定項目|URI|
 |---|---|
@@ -198,6 +195,6 @@ googleAds = true
 |Windows Insider Program|windowsinsider|
 |デバイスの暗号化|deviceencryption|
 
-## 4. おわりに
+## 15. おわりに
 
-　Windows の設定で表示される設定項目は，ハードウェアと Windows 10 のビルドバージョンに依存する。そのため，使用している端末によっては上記の一覧表と一致しない場合があるので注意してほしい。
+　ここまで，Windows 10 の設定 ms-settings の対応表を記載してきました。冒頭でも述べた通り，Windows 10 の設定で表示される設定項目は，ハードウェアと Windows 10 のビルドバージョンに依存します。そのため，使用している端末によっては上記の一覧表と一致しない場合があります。抜けている設定項目や非推奨になっている ms-settings があれば報告していただけると幸いです。
