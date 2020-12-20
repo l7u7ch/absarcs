@@ -1,25 +1,24 @@
 +++
-slug = "efd3e0e8ee38175272f8cbea3d39f1ff"
-image = "e7d8548680b6123c2361613f3ea0de1a.png"
-title = "Python でシーザ暗号を実装する"
-publishDate = "2018-01-01T00:00:00+09:00"
-lastmod = "2018-12-20T00:00:00+09:00"
-tags = ["Python"]
+slug = "implementing-rot13-caesar-cipher-python3"
+image = "d09e3a9ec3f6ca8e160f21aa00f3402e.png"
+title = "Python 3 で ROT13 (シーザ暗号) を実装する"
+publishDate = "2018-01-01T00:00:00+0900"
+lastmod = "2020-12-21T04:25:35+0900"
+tags = ["Tech", "Python"]
 googleAds = true
+aliases = ["/efd3e0e8ee38175272f8cbea3d39f1ff"]
 +++
 
 ## 1. はじめに
-　Python には ROT13 が組み込まれているため，シーザー暗号をフルスクラッチで実装する必要はない。しかし，鍵が 13 で固定のため，汎用性に欠ける。そこで，本記事ではシーザー暗号の暗号化，復号化，及び，解析 (ブルートフォースアタック) を行うスクリプトを  Python で実装し，実行結果を確認する。  
-　続く 2 章では，作業を行う環境について記述する。3 章では，暗号化スクリプトについて記述する。4 章では，復号化スクリプトについて記述する。5 章では，解析スクリプトについて記述する。6 章では，本記事のまとめを記述する。
 
-## 2. 環境情報
-　次章以降で行う作業は以下の環境下で行ったものである。
+　Python 3 には [ROT13](https://docs.python.org/ja/3/library/codecs.html#text-transforms) が組み込まれているため，シーザー暗号をフルスクラッチで実装する必要はありません。しかし，鍵が 13 で固定されているため，汎用性に欠けています。そこで，本記事ではシーザー暗号の暗号化，復号化，及び，解析 (ブルートフォースアタック) を行うスクリプトを  Python 3 で実装し，実行結果を確認します。また，本記事内で行っている作業は，以下の環境下で実行したものです。
 
- * Python Ver.3.6.4
- * Antergos（Arch Linux）
+* Python Ver.3.6.9
+* Zorin OS 15.2 Core (Ubuntu 18.04 LTS)
 
-## 3. 暗号化スクリプト
-　平文を暗号化するスクリプトのソースコードと，その実行結果を以下に示す。
+## 2. 暗号化スクリプト
+
+　以下の平文を暗号化するスクリプトを任意のフォルダ内に *encryption.py* というファイル名で保存します。encryption.py を実行し，暗号化したい平文と鍵を入力すると，暗号文が出力されます。
 
 ```python
 #!/usr/bin/env python3
@@ -49,14 +48,16 @@ if __name__ == '__main__':
 ```
 
 ```bash
+$ python3 encryption.py
 PLEASE INPUT PLAINTEXT : Apple
 PLEASE INPUT KEY : 13
 CIPHERTEXT : Nccyr
 PLEASE PRESS ANY
 ```
 
-## 4. 復号化スクリプト
-　暗号文を復号化するスクリプトのソースコードと，その実行結果を以下に示す。
+## 3. 復号化スクリプト
+
+　以下の暗号文を復号化するスクリプトを任意のフォルダ内に *decryption.py* というファイル名で保存します。decryption.py を実行し，暗号文と鍵を入力すると，復号された平文が出力されます。
 
 ```python
 #!/usr/bin/env python3
@@ -86,14 +87,16 @@ if __name__ == '__main__':
 ```
 
 ```bash
+$ python3 decryption.py
 PLEASE INPUT CIPHERTEXT : Nccyr
 PLEASE INPUT KEY : 13
 PLAINTEXTtext : Apple
 PLEASE PRESS ANY
 ```
 
-## 5. 解析スクリプト
-　暗号文をブルートフォースアタックによって解析するスクリプトのソースコードと，その実行結果を以下に示す。
+## 4. 解析スクリプト
+
+　以下の暗号文をブルートフォースアタックによって解析するスクリプトを任意のフォルダ内に *bfa.py* というファイル名で保存します。bfa.py を実行し，暗号文を入力すると，総当りで解析された平文が出力されます。
 
 ```python
 #!/usr/bin/env python3
@@ -122,6 +125,7 @@ if __name__ == '__main__':
 ```
 
 ```bash
+$ python3 bfa.py
 PLEASE INPUT CIPHERTEXT : Nccyr
  1 : Oddzs
  2 : Peeat
@@ -151,10 +155,6 @@ PLEASE INPUT CIPHERTEXT : Nccyr
 PLEASE PRESS ANY
 ```
 
-## 6. おわりに
-　本記事では，シーザー暗号の暗号化，復号化，及び，解析 (ブルートフォースアタック) を行うスクリプトを Python で実装し，その実行結果を確認してきた。世の中には，シーザー暗号の他にユニークな古典暗号が数多く存在している。そこで，今後はそれらの暗号の実装にも取り組んでいきたいと考えている。
+## 5. おわりに
 
-## 参考資料
-
- * [3.6.1 Documentation](https://docs.python.jp/3/)
- * [暗号技術入門 第3版](http://www.hyuki.com/cr/)
+　本記事では，シーザー暗号の暗号化，復号化，及び，解析 (ブルートフォースアタック) を行うスクリプトを Python で実装し，その実行結果を確認することが出来た。世の中には，シーザー暗号の他にユニークな古典暗号が数多く存在しています。そこで，今後はそれらの暗号の実装にも取り組んでいきたいと考えています。
