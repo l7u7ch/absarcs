@@ -1,11 +1,12 @@
 +++
-slug = "c32cde8c9eb06a9ecb29a337c356344d"
-image = "bb7b624e657bd39fb3a942413151bf49.png"
-title = "UWP 版の Inkscape の設定を初期化する方法"
-publishDate = "2019-09-05T00:00:00+09:00"
-lastmod = "2020-04-07T01:37:00+09:00"
-tags = ["Inkscape", "UWP" ]
+slug = "initialize-settings-uwp-version-inkscape"
+image = "b68ed33ff3b2a1a05af44f4cc330b3e1.png"
+title = "UWP 版の Inkscape の設定を初期化する"
+publishDate = "2019-09-05T00:00:00+0900"
+lastmod = "2020-12-21T04:45:37+0900"
+tags = ["Tech", "Inkscape"]
 googleAds = true
+aliases = ["/c32cde8c9eb06a9ecb29a337c356344d"]
 +++
 
 ## 1. はじめに
@@ -22,9 +23,4 @@ googleAds = true
 
 ## 4. おわりに
 
-　ここまで，UWP 版の Inkscape の設定を初期化する方法について記述してきました。本記事が，UWP 版の Inkscape を愛用しているユーザーの一助になれば幸いです。
-
-## 環境情報
-
- * Inkscape Ver.0.92.4 
- * Windows 10 Ver.1809
+　ここまで，UWP 版の Inkscape の設定を初期化する方法について記述してきました。ネイティブ版と UWP 版で，設定ファイルの場所が異なっていることは予想出来ましたが，UWP アプリの設定ファイルが予想外の場所に保存されていたので詰まりました。本記事が，UWP 版の Inkscape を愛用しているユーザーの一助になれば幸いです。
