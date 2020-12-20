@@ -1,11 +1,12 @@
 +++
-slug = "aff6f0cd316165fe425ae87f4b34bbd5"
-image = ""
-title = "Google Apps Script を用いて Twitter をエフェメラル SNS 化する"
-publishDate = "2019-06-06T00:00:00+09:00"
-lastmod = "2019-06-06T00:00:00+09:00"
-tags = ["GAS"]
+slug = "delete-twitter-tweets-periodically-using-google-apps-script"
+image = "14202f8c2a5582219cf162b0bb1b93a4.png"
+title = "Google Apps Script を用いて定期的に Twitter のツイートを削除する"
+publishDate = "2019-06-06T00:00:00+0900"
+lastmod = "2020-12-21T02:50:19+0900"
+tags = ["Tech", "Google Apps Script"]
 googleAds = true
+aliases = ["/aff6f0cd316165fe425ae87f4b34bbd5"]
 +++
 
 ## 1. はじめに
@@ -13,16 +14,9 @@ googleAds = true
 　近年，[Snapchat](https://www.snapchat.com/) や [Instagram Stories](https://business.instagram.com/blog/introducing-instagram-stories) などの一定時間が経過すると自動的に投稿が削除される，エフェメラル SNS と呼ばれるサービスが登場しています。
 　本記事では，Google Apps Script を用いて Twitter に投稿されてから 7 日以上が経過したツイートを自動的に削除することで，Twitter をエフェメラル SNS 化するシステムの構築について記述します。
 
-## 2. 環境情報
+## 2. 事前準備
 
-　次章以降で行う作業は以下の環境下で行ったものです。
-
- * Google Chrome Ver. 74.0.3729.169
- * Windows 10 Ver.1809
-
-## 3. 事前準備
-
-### 3.1. Twitter
+### 2.1. Twitter
 
 　[Twitter Developers](https://developer.twitter.com/) に登録して，以下の情報を取得します。
 
@@ -31,11 +25,11 @@ googleAds = true
  * ACCESS_TOKEN
  * ACCESS_TOKEN_SECRET
 
-### 3.2. Google Apps Script
+### 2.2. Google Apps Script
 　Google Apps Script のプロジェクトを作成し，OAuth 認証のライブラリが OSS として [Github](https://github.com/gsuitedevs/apps-script-oauth1/blob/master/LICENSE) に公開されているので，手順に従ってインストールします。
 
 
-## 4. 実装
+## 3. 実装
 
 　以下のスクリプトを作成した Google Apps Script のプロジェクトに追加します。大括弧の部分は各自の情報に置換してください。
 
@@ -87,6 +81,6 @@ function main() {
 
 ![](8315171090ff41d45465c3ebc6f0d682.jpg)
 
-## 5. おわりに
+## 4. おわりに
 
 　定期的にツイートを削除してくれるサービスとして [TweetDelete](https://www.tweetdelete.net/) が存在します。しかし，TweetDelete の削除頻度は高くなく，指定した期間以上のツイートが残ってしまいます。削除頻度が気にならない人は，TweetDelete を利用するのも有効な方法だと思います。
