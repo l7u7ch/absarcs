@@ -88,13 +88,6 @@
 {{ end }}
 
 {{ define "aside" }}
-<!-- Google AdSense: display-side-top -->
-{{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
-<div class="mb-4">
-  {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8603021706") }}
-</div>
-{{ end }}
-<!-- /Google AdSense: display-side-top -->
 <div class="mb-4">
   {{ partial "profile-card.html" . }}
 </div>
@@ -102,25 +95,11 @@
   <div class="mb-4">
     {{ partial "toc.html" . }}
   </div>
-  <!-- Google AdSense: display-side-middle -->
-  {{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
-  <div class="mb-4">
-    {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "8993859780") }}
-  </div>
-  {{ end }}
-  <!-- /Google AdSense: display-side-middle -->
   <div class="mb-4">
     {{ partial "article-list.html" . }}
   </div>
   <div class="mb-4">
     {{ partial "search-box.html" . }}
   </div>
-  <!-- Google AdSense: display-side-bottom -->
-  {{ if and .Site.Params.googleAdsClientID .Params.googleAds }}
-  <div class="mb-4">
-    {{ partial "google-ads.html" (dict "layout" "display" "client" .Site.Params.googleAdsClientID "slot" "5274132935" ) }}
-  </div>
-  {{ end }}
-  <!-- /Google AdSense: display-side-bottom -->
 </div>
 {{ end }}
