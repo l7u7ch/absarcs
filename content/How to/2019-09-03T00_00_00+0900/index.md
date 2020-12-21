@@ -1,26 +1,19 @@
 +++
-slug = "5be0e2ca47b79c3a48194640850b032f"
-image = "06ebab7d097dc0f8eca4aaf2c3fa0e34.png"
-title = "Linux において PDF のメタデータを GUI ソフトウェアを用いて編集する方法"
-publishDate = "2019-09-03T00:00:00+09:00"
-lastmod = "2019-09-09T00:00:00+09:00"
-tags = ["Linux", "PDF"]
+slug = "using-pdfmted-edit-pdf-metadata-linux"
+image = "de12e4d146169ae2e761495b71b29a62.png"
+title = "PDFMtEd を用いて Linux で PDF のメタデータを編集する"
+publishDate = "2019-09-03T00:00:00+0900"
+lastmod = "2020-12-21T21:50:24+0900"
+tags = ["Tech", "PDFMtEd", "Linux"]
 googleAds = true
+aliases = ["/5be0e2ca47b79c3a48194640850b032f"]
 +++
 
 ## 1. はじめに
 
-　Windows において PDF のメタデータを編集する場合は，Adobe Acrobat Reader 以外にも多種多様なソフトウェアが存在しているため，ユーザーには多くの選択肢が与えられます。しかし，Linux において同様の作業を行う場合は，非常に選択肢が限られます。本記事では，Linux 上で動作する PDF のメタデータを編集可能な数少ない GUI ソフトウェアである PDFMtEd について記述します。
+　Windows において PDF のメタデータを編集する場合は，Adobe Acrobat Reader 以外にも多種多様なソフトウェアが存在しているため，ユーザーには多くの選択肢が与えられます。しかし，Linux において同様の作業を行う場合は，非常に選択肢が限られます。本記事では，Linux 上で動作する PDF のメタデータを編集可能な数少ない GUI ソフトウェアである PDFMtEd を用いて Linux で PDF のメタデータを編集する手順について記述します。また，本記事内で行っている作業は，Zorin OS 15 Core (Ubuntu 18.04 LTS) の環境下で実行したものです。
 
-## 2. 環境情報
-
-　次章以降で行う作業は以下の環境下で行ったものです。
-
- * mkdir Ver.8.28
- * Git Ver.2.19.1
- * Linux Kernel Ver.4.18.0-25-generic
-
-## 3. インストール
+## 2. インストール
 
 　Github の [README.md](https://github.com/glutanimate/PDFMtEd) によると以下のパッケージに依存しているため，事前にインストールが必要です。
 
@@ -55,15 +48,15 @@ $ sudo mkdir -p {/usr/local/share/applications,/usr/local/share/icons/hicolor/sc
 
 ![](a2589d772c234097d2c82eb698b0b006.png)
 
-## 4. 使用方法
+## 3. 使用方法
 
 　使用方法は非常にシンプルです。必要な項目に情報を記入した後，「Save changes, file will be skipped if unchecked」にチェックが入っていることを確認して「Finish」をクリックします。また，「Rename based on tags」にチェックを入れて「Finish」をクリックするとメタデータを基にファイルネームを編集してくれます。
 
 ![](0ed8bfcc589f3245d736ae2de05cccfb.png)
 
-## 5. おわりに
+## 4. おわりに
 
-　PDFMtEd は，高速かつシンプルに PDF のメタデータを編集可能である反面，以下の欠点が存在します。
+　ここまで，PDFMtEd を用いて Linux で PDF のメタデータを編集する手順について記述してきました。PDFMtEd は，高速かつシンプルに PDF のメタデータを編集可能である反面，以下の欠点が存在します。
 
 　(1) Python の 2 系に依存している  
 　(2) 最終更新が 2016 年 1 月 3 日で止まっている  
