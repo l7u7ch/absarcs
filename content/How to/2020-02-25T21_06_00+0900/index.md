@@ -1,24 +1,24 @@
 +++
-image = "b33340e9f3bf46cfdf5e8da4072a7d48.png"
-title = "GAS を用いて Toggl のデータを Google カレンダーに移行する"
-publishDate = "2020-02-25T21:06:00+09:00"
-lastmod = "2020-02-25T21:06:00+09:00"
-tags = ["GAS", "Toggl"]
+slug = "using-google-apps-script-migrate-toggl-data-google-calendar"
+image = "14202f8c2a5582219cf162b0bb1b93a4.png"
+title = "Google Apps Script を用いて Toggl のデータを Google カレンダーに移行する"
+publishDate = "2020-02-25T21:06:00+0900"
+lastmod = "2020-12-21T21:39:46+0900"
+tags = ["Tech", "Google Apps Script", "Toggl"]
 googleAds = true
+aliases = ["/eb9028837782f44c99d51dfe7acc24f2"]
 +++
 
 ## 1. はじめに
 
-　筆者は，タイムトラッキングアプリである [Toggl](https://toggl.com/) を日常的に愛用しています。しかし，記録データはワークフローの関係上 Google カレンダーで一括管理したい。そこで，本記事では GAS[^1] を用いて Toggl に記録されているデータを Google カレンダーに一括移行するスクリプトについて記述する。
-
-[^1]: Google Apps Script の略称
+　筆者は，タイムトラッキングアプリである [Toggl](https://toggl.com/) を日常的に愛用しています。しかし，記録データはワークフローの関係上 Google カレンダーで一括管理したい。そこで，本記事では Google Apps Script を用いて Toggl に記録されているデータを Google カレンダーに一括移行するスクリプトについて記述する。
 
 ## 2. 要件定義
 
 　実現したい要件として，以下の 2 つが挙げられます。
 
-　① Toggl に記録されている Time Entrys を Google カレンダーに移行する  
-　② Toggl に記録されている Time Entrys を削除する
+1. Toggl に記録されている Time Entrys を Google カレンダーに移行する  
+2. Toggl に記録されている Time Entrys を削除する
 
 ![](e8555184bc468f7ea1652db6918563d8.png)
 
@@ -88,13 +88,8 @@ function main() {
 
 ## 5. 運用
 
-　新しい GAS のプロジェクトを作成し，上記のソースコードをコピー&ペーストします。初回実行時は認証手続きが必要になるので，[認証手順記事](https://www.virment.com/step-allow-google-apps-script/)を参考に認証します。また，[トリガー](https://tonari-it.com/gas-trigger-set/)を設定しておくことで，Toggl に記録されている Time Entrys を自動的に Google カレンダーへ移行することができます。
+　新しい Google Apps Script のプロジェクトを作成し，上記のソースコードをコピー&ペーストします。初回実行時は認証手続きが必要になるので，[認証手順記事](https://www.virment.com/step-allow-google-apps-script/)を参考に認証します。また，[トリガー](https://tonari-it.com/gas-trigger-set/)を設定しておくことで，Toggl に記録されている Time Entrys を自動的に Google カレンダーへ移行することができます。
 
 ## 6. おわりに
 
-　ここまで，本記事では GAS を用いて Toggl に記録されているデータを Google カレンダーに一括移行するスクリプトについて記述してきました。GAS と Google が提供しているサービスを組み合わせると様々なことができるので，GAS を触ったことない方は GAS で遊んでみてほしいです。
-
-## 環境情報
-
-* Google Chrome Ver.80.0.3987.116
-* Zorin OS 15 Core (Ubuntu 18.04 LTS)
+　ここまで，本記事では Google Apps Script を用いて Toggl に記録されているデータを Google カレンダーに一括移行するスクリプトについて記述してきました。Google Apps Script と Google が提供しているサービスを組み合わせると様々なことができるので，Google Apps Script を触ったことない方は Google Apps Script で遊んでみてほしいです。
