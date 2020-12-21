@@ -1,10 +1,10 @@
 +++
 slug = "f914bd57b558ccc64f6121933a31488e"
-image = ""
+image = "156e288f944d21984b7199f9cd19d4eb.png"
 title = "Scalafmt を sbt のプラグインとしてインストール・実行する方法"
 publishDate = "2019-05-16T00:00:00+09:00"
 lastmod = "2019-05-16T00:00:00+09:00"
-tags = ["Scala"]
+tags = ["Tech", "Scala"]
 googleAds = true
 +++
 
@@ -24,22 +24,22 @@ googleAds = true
 ## 3. 事前準備
 　任意のフォルダ内に以下のようにファイルとフォルダを作成・配置します。
 
-```
- [dir]
-   ├── project
-   │   └── plugins.sbt
-   └── main.scala
+```bash
+[dir]
+  ├── project
+  │   └── plugins.sbt
+  └── main.scala
 ```
 
 　sbt のバージョンによって plugins.sbt の記述方式が変わってくるので Scalafmt の[ドキュメント](https://scalameta.org/scalafmt/docs/installation.html#sbt)を確認してください。
 
-```:plugins.sbt
+```bash
 addSbtPlugin("com.geirsson" % "sbt-scalafmt" % "1.5.1")
 ```
 
 　任意でインテンドを挿入してコーディングエラーを再現しています。
 
-```scala:main.scala
+```scala
 object Main extends App {
         println("Hello")
 }
