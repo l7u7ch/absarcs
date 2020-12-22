@@ -103,3 +103,20 @@
   </div>
 </div>
 {{ end }}
+
+{{ define "off-canvas" }}
+<div class="mb-4">
+  {{ partial "profile-card.html" . }}
+</div>
+<div class="sticky top-4">
+  <div class="mb-4">
+    {{ partial "toc.html" . }}
+  </div>
+  <div class="mb-4">
+    {{ partial "article-list.html" . }}
+  </div>
+  <div class="mb-4">
+    {{ partial "search-box.html" . }}
+  </div>
+</div>
+{{ end }}

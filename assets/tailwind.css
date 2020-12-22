@@ -948,6 +948,10 @@ select {
   max-width: 20rem;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -1294,18 +1298,18 @@ select {
 }
 
 @media (min-width: 1024px) {
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .lg\:inline-block {
+    display: inline-block;
+  }
+
+  .lg\:invisible {
+    visibility: hidden;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:inline-block {
-    display: inline-block;
-  }
-
-  .xl\:invisible {
-    visibility: hidden;
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

@@ -3,7 +3,7 @@
 
 {{ partial "head.html" . }}
 
-<body class="bg-blue-50 text-default" x-data="{ off_canvas: false }">
+<body class="bg-blue-50 text-default" x-data="{ off_canvas: false }" :class="{ 'overflow-hidden' : off_canvas }">
 
   {{ partial "header.html" . }}
 
@@ -17,7 +17,7 @@
       <div class="bg-white flex items-center justify-center mb-4 py-3 rounded-lg shadow text-center text-sm">
         {{ block "headline" . }}{{ end }}
       </div>
-      <div class="grid gap-4 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 mb-4">
+      <div class="grid gap-4 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 mb-4">
         {{ block "articles" . }}{{ end }}
       </div>
       <div class="mb-4">
@@ -28,7 +28,7 @@
     <!-- /main -->
 
     <!-- aside -->
-    <aside class="hidden max-w-xs w-full xl:inline-block">
+    <aside class="hidden max-w-xs w-full lg:inline-block">
       {{ block "aside" . }}
       <div class="mb-4">
         {{ partial "profile-card.html" . }}
@@ -50,18 +50,26 @@
   {{ partial "footer.html" . }}
 
   <!-- Off-Canvas -->
-  <!-- <aside class="bg-black bg-opacity-50 fixed inset-0" x-show="off_canvas" @click="off_canvas = false"></aside> -->
-  <!-- <aside class="bg-blue-50 fixed h-full inset-0 max-w-xs overflow-y-scroll p-3 w-full" x-show="off_canvas">
-  </aside> -->
-  <!-- <button class="focus:outline-none outline-none bg-primary bottom-0 duration-500 fixed flex h-12 hover:bg-white hover:text-primary items-center justify-center mb-4 mr-4 right-0 ring-1 ring-primary rounded-full text-white w-12 xl:invisible" @click="off_canvas = true">
-    <i class="fas fa-bars fa-lg fa-fw"></i>
-  </button> -->
+  <aside class="bg-black bg-opacity-50 fixed inset-0" x-show="off_canvas" @click="off_canvas = !off_canvas"></aside>
+  <aside class="bg-blue-50 fixed h-full inset-0 max-w-sm overflow-y-scroll p-3 w-full hidden" :class="{ 'hidden' : !off_canvas }" x-show="off_canvas">
+    {{ block "off-canvas" . }}
+    <div class="mb-4">
+      {{ partial "profile-card.html" . }}
+    </div>
+    <div class="mb-4">
+      {{ partial "article-list.html" . }}
+    </div>
+    <div class="mb-4">
+      {{ partial "search-box.html" . }}
+    </div>
+    {{ end }}
+  </aside>
+  <button class="focus:outline-none outline-none bg-primary bottom-0 duration-500 fixed flex h-12 hover:bg-white hover:text-primary items-center justify-center mb-4 mr-4 right-0 ring-1 ring-primary rounded-full text-white w-12 lg:invisible" @click="off_canvas = !off_canvas">
+    <i class="fas fa-bars fa-lg fa-fw" x-show="!off_canvas"></i>
+    <i class="fas fa-times fa-lg fa-fw" x-show="off_canvas"></i>
+  </button>
   <!-- /Off-Canvas -->
 
-
-
 </body>
-
-
 
 </html>
