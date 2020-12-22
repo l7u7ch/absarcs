@@ -1,40 +1,40 @@
 <div class="flex justify-center">
   {{ if .Paginator.HasPrev }}
-  <a aria-label="first" class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.First.URL }}">
+  <a aria-label="first" class="flex items-center justify-center w-12 h-12 mx-2 text-white duration-500 border rounded-full shadow bg-primary border-primary hover:bg-white hover:text-primary" href="{{ .Paginator.First.URL }}">
     <i class="fas fa-angle-double-left fa-fw"></i>
   </a>
   {{ else }}
-  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+  <span class="flex items-center justify-center w-12 h-12 mx-2 bg-white rounded-full shadow text-default">
     <i class="fas fa-angle-double-left fa-fw"></i>
   </span>
   {{ end }}
   {{ if .Paginator.HasPrev }}
-  <a aria-label="prev" class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.Prev.URL }}">
+  <a aria-label="prev" class="flex items-center justify-center w-12 h-12 mx-2 text-white duration-500 border rounded-full shadow bg-primary border-primary hover:bg-white hover:text-primary" href="{{ .Paginator.Prev.URL }}">
     <i class="fas fa-angle-left fa-fw"></i>
   </a>
   {{ else }}
-  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+  <span class="flex items-center justify-center w-12 h-12 mx-2 bg-white rounded-full shadow text-default">
     <i class="fas fa-angle-left fa-fw"></i>
   </span>
   {{ end }}
-  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+  <span class="flex items-center justify-center w-12 h-12 mx-2 bg-white rounded-full shadow text-default">
     {{ .Paginator.PageNumber }}/{{ .Paginator.TotalPages }}
   </span>
   {{ if .Paginator.HasNext }}
-  <a aria-label="next" class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.Next.URL }}">
+  <a aria-label="next" class="flex items-center justify-center w-12 h-12 mx-2 text-white duration-500 border rounded-full shadow bg-primary border-primary hover:bg-white hover:text-primary" href="{{ .Paginator.Next.URL }}">
     <i class="fas fa-angle-right fa-fw"></i>
   </a>
   {{ else }}
-  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+  <span class="flex items-center justify-center w-12 h-12 mx-2 bg-white rounded-full shadow text-default">
     <i class="fas fa-angle-right fa-fw"></i>
   </span>
   {{ end }}
   {{ if .Paginator.HasNext }}
-  <a aria-label="last" class="bg-primary border border-primary duration-500 flex h-12 hover:bg-white hover:text-primary items-center justify-center mx-2 rounded-full shadow text-white w-12" href="{{ .Paginator.Last.URL }}">
+  <a aria-label="last" class="flex items-center justify-center w-12 h-12 mx-2 text-white duration-500 border rounded-full shadow bg-primary border-primary hover:bg-white hover:text-primary" href="{{ .Paginator.Last.URL }}">
     <i class="fas fa-angle-double-right fa-fw"></i>
   </a>
   {{ else }}
-  <span class="text-default bg-white flex h-12 items-center justify-center mx-2 rounded-full shadow w-12">
+  <span class="flex items-center justify-center w-12 h-12 mx-2 bg-white rounded-full shadow text-default">
     <i class="fas fa-angle-double-right fa-fw"></i>
   </span>
   {{ end }}

@@ -8,16 +8,16 @@
   {{ partial "header.html" . }}
 
   <!-- container -->
-  <div class="container flex gap-4 justify-center mx-auto">
+  <div class="container flex justify-center gap-4 mx-auto">
     {{ block "container" . }}
 
     <!-- main -->
     {{ block "main" . }}
     <main class="w-full">
-      <div class="bg-white flex items-center justify-center mb-4 py-3 rounded-lg shadow text-center text-sm">
+      <div class="flex items-center justify-center py-3 mb-4 text-sm text-center bg-white rounded-lg shadow">
         {{ block "headline" . }}{{ end }}
       </div>
-      <div class="grid gap-4 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 mb-4">
+      <div class="grid gap-4 mb-4 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2">
         {{ block "articles" . }}{{ end }}
       </div>
       <div class="mb-4">
@@ -28,7 +28,7 @@
     <!-- /main -->
 
     <!-- aside -->
-    <aside class="hidden max-w-xs w-full lg:inline-block">
+    <aside class="hidden w-full max-w-xs lg:inline-block">
       {{ block "aside" . }}
       <div class="mb-4">
         {{ partial "profile-card.html" . }}
@@ -50,8 +50,8 @@
   {{ partial "footer.html" . }}
 
   <!-- Off-Canvas -->
-  <aside class="bg-black bg-opacity-50 fixed inset-0" x-show="off_canvas" @click="off_canvas = !off_canvas"></aside>
-  <aside class="bg-blue-50 fixed h-full inset-0 max-w-sm overflow-y-scroll p-3 w-full hidden" :class="{ 'hidden' : !off_canvas }" x-show="off_canvas">
+  <aside class="fixed inset-0 bg-black bg-opacity-50" x-show="off_canvas" @click="off_canvas = !off_canvas"></aside>
+  <aside class="fixed inset-0 hidden w-full h-full max-w-sm p-3 overflow-y-scroll bg-blue-50" :class="{ 'hidden' : !off_canvas }" x-show="off_canvas">
     {{ block "off-canvas" . }}
     <div class="mb-4">
       {{ partial "profile-card.html" . }}
@@ -64,7 +64,7 @@
     </div>
     {{ end }}
   </aside>
-  <button class="bg-primary bottom-0 fixed flex focus:outline-none h-12 items-center justify-center lg:invisible mb-4 mr-4 outline-none right-0 ring-1 ring-primary rounded-full text-white w-12" @click="off_canvas = !off_canvas">
+  <button class="fixed bottom-0 right-0 flex items-center justify-center w-12 h-12 mb-4 mr-4 text-white rounded-full outline-none bg-primary focus:outline-none lg:invisible ring-1 ring-primary" @click="off_canvas = !off_canvas">
     <i class="fas fa-bars fa-lg fa-fw" x-show="!off_canvas"></i>
     <i class="fas fa-times fa-lg fa-fw" x-show="off_canvas"></i>
   </button>

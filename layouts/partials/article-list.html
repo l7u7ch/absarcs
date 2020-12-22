@@ -1,12 +1,12 @@
-<div class="bg-white overflow-hidden rounded-lg shadow text-sm" x-data="{ tab: {{ .IsPage }} ? 'related' : 'popular' }">
+<div class="overflow-hidden text-sm bg-white rounded-lg shadow" x-data="{ tab: {{ .IsPage }} ? 'related' : 'popular' }">
   <header class="flex justify-around text-center">
-    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'related' }" @click="tab = 'related'" x-show="{{ .IsPage }}">
+    <button class="w-full py-3 duration-500 outline-none focus:outline-none" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'related' }" @click="tab = 'related'" x-show="{{ .IsPage }}">
       関連記事
     </button>
-    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'popular' }" @click="tab = 'popular'">
+    <button class="w-full py-3 duration-500 outline-none focus:outline-none" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'popular' }" @click="tab = 'popular'">
       人気記事
     </button>
-    <button class="duration-500 focus:outline-none outline-none py-3 w-full" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'latest' }" @click="tab = 'latest'">
+    <button class="w-full py-3 duration-500 outline-none focus:outline-none" :class="{ 'bg-gray-200 hover:bg-primary hover:text-white': tab !== 'latest' }" @click="tab = 'latest'">
       最新記事
     </button>
   </header>
@@ -29,14 +29,14 @@
 
 {{ define "article-list__article" }}
 <li>
-  <a href="{{ .Permalink }}" aria-label="" class="border-b content-center duration-500 flex group hover:bg-secondary items-center px-4 py-3">
-    <img class="bg-gray-200 h-12 mr-3 object-center object-cover rounded-full w-12" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
-    <div class="duration-500 group-hover:text-white w-full">
+  <a href="{{ .Permalink }}" aria-label="" class="flex items-center content-center px-4 py-3 duration-500 border-b group hover:bg-secondary">
+    <img class="object-cover object-center w-12 h-12 mr-3 bg-gray-200 rounded-full" src="{{ if .Params.image }}{{ .Permalink }}/{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/img/default.png{{ end }}" alt="thumbnail" />
+    <div class="w-full duration-500 group-hover:text-white">
       <div class="mb-2">
         {{ .Title }}
       </div>
-      <div class="flex justify-between items-center text-xs">
-        <span class="border px-2 py-1 rounded-full">
+      <div class="flex items-center justify-between text-xs">
+        <span class="px-2 py-1 border rounded-full">
           {{ if .CurrentSection.IsSection }}
           {{ .CurrentSection.Title }}
           {{ else }}
@@ -44,7 +44,7 @@
           {{ end }}
         </span>
         <span>
-          <i class="far fa-clock mr-1"></i>
+          <i class="mr-1 far fa-clock"></i>
           {{ .Lastmod.Format "2006-01-02" }}
         </span>
       </div>

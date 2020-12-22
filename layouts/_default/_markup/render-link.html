@@ -1,1 +1,1 @@
-<a class="text-blue-600 hover:text-primary duration-500 group" href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener" {{ end }}>{{ .Text | safeHTML }}</a>
+<a class="text-blue-600 duration-500 hover:text-primary group" href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener" {{ end }}>{{ .Text | safeHTML }}</a>
