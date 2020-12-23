@@ -215,7 +215,7 @@ $ tree
 
 　2.2 節で構築した環境を例に，最適化処理の手順を以下に示します。tailwind.config.js の purge に，Tailwind CSS のクラス名を使用している *index.html* のパスを追加します。以下の例では，正規表現を用いてパスを指定しています。
 
-```js { hl_lines=[3] }
+```js { hl_lines=[4] }
 // tailwind.config.js
 module.exports = {
   purge: [
