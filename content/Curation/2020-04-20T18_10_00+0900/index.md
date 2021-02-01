@@ -6,7 +6,7 @@ publishDate = "2020-04-20T18:10:00+0900"
 lastmod = "2020-12-22T05:50:05+0900"
 tags = ["Tech", "Linux"]
 googleAds = true
-weight = 4
+weight = 3
 aliases = ["/eb0c479b794afe07f80ad2eebddd239b"]
 +++
 

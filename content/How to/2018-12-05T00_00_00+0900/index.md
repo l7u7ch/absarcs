@@ -6,6 +6,7 @@ publishDate = "2018-12-05T00:00:00+0900"
 lastmod = "2020-12-15T14:27:21+0900"
 tags = ["Tech", "curl", "pixiv"]
 googleAds = true
+weight = 4
 aliases = [
   "/ea9a8f53114ee03c9963a2e0ea583c75",
   "/tips-call-pixiv-api-curl",

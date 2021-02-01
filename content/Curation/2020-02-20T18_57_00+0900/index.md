@@ -5,7 +5,7 @@ title = "個人ブログに最適なオススメの Hugo テーマ"
 publishDate = "2020-02-20T18:57:00+0900"
 lastmod = "2020-12-21T11:06:09+0900"
 tags = ["Tech", "Hugo"]
-weight = 1
+weight = 2
 googleAds = true
 aliases = ["/70d4ba0a425b3d365c8c392e750a8912"]
 +++
