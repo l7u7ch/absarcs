@@ -6,7 +6,10 @@ publishDate = "2019-04-18T00:00:00+0900"
 lastmod = "2020-12-21T04:02:50+0900"
 tags = ["Tech", "Windows"]
 googleAds = true
-aliases = ["/beeafc4b62c78ef5c7b91ac1f4143582"]
+aliases = [
+  "/beeafc4b62c78ef5c7b91ac1f4143582",
+  "/curation/correspondence-table-windows-10-settings-ms-settings"
+]
 +++
 
 ## 1. はじめに
