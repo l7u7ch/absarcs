@@ -6,7 +6,7 @@ publishDate = "2018-02-06T00:00:00+0900"
 lastmod = "2020-12-22T06:52:15+0900"
 tags = ["Tech", "Python", "OpenCV"]
 googleAds = true
-weight = 5
+weight = 0
 aliases = ["/5a24503b476cde19486f123da98b1991"]
 +++
 

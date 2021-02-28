@@ -4,7 +4,7 @@ title = "Trello から Notion に完全移行できない理由"
 publishDate = "2020-02-07T22:40:00+09:00"
 lastmod = "2020-02-07T22:40:00+09:00"
 tags = [ "Trello", "Notion" ]
-weight = 1
+weight = 3
 googleAds = true
 +++
 
