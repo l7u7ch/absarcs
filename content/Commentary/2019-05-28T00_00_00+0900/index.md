@@ -6,7 +6,10 @@ publishDate = "2019-05-28T00:00:00+0900"
 lastmod = "2020-12-21T03:43:14+0900"
 tags = ["Tech", "badblocks"]
 googleAds = true
-aliases = ["/25c540e7e79ee9f2d838c462c0da4f22"]
+aliases = [
+  "/25c540e7e79ee9f2d838c462c0da4f22",
+  "/curation/error-details-included-badblocks-test-results",
+]
 +++
 
 ## 1. はじめに
