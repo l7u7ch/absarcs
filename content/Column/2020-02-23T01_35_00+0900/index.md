@@ -1,12 +1,15 @@
 +++
-slug ="column-table-of-contents-best-practices"
+slug ="table-of-contents-best-practices"
 image = "b48223ee34723e093b3c9abb84d39cec.png"
 title = "Web サイトにおける目次 (Table of contents) のベストプラクティス"
-publishDate = "2020-02-23T01:35:00+09:00"
-lastmod = "2020-03-11T23:14:00+09:00"
+publishDate = "2020-02-23T01:35:00+0900"
+lastmod = "2021-03-02T05:05:00+0900"
 tags = [ "Design", "UX" ]
 googleAds = true
-aliases = ["590c49b57be1b54ddfada21ccaafadc0"]
+aliases = [
+  "/590c49b57be1b54ddfada21ccaafadc0",
+  "/column-table-of-contents-best-practices"
+]
 +++
 
 ## 1. はじめに
