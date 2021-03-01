@@ -1,12 +1,15 @@
 +++
-slug = "column-ad-block-detect-best-practices"
+slug = "ad-block-detect-best-practices"
 image = "b48223ee34723e093b3c9abb84d39cec.png"
 title = "Web サイトにおける広告ブロック検知のベストプラクティス"
-publishDate = "2020-03-12T08:21:00+09:00"
-lastmod = "2020-03-12T08:36:00+09:00"
+publishDate = "2020-03-12T08:21:00+0900"
+lastmod = "2021-03-02T05:06:00+0900"
 tags = [ "Design", "UX" ]
 googleAds = true
-aliases = ["b7807a57ef45991957ff9f50fc5de68a"]
+aliases = [
+  "/b7807a57ef45991957ff9f50fc5de68a",
+  "/column-ad-block-detect-best-practices"
+]
 +++
 
 ## 1. はじめに
