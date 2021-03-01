@@ -1,10 +1,12 @@
 +++
+slug = "explain-institute-electronics-information-communication-engineers"
 image = "759a331e4c887ff2bde298b1b2125d3d.png"
 title = "電子情報処理学会に関連する論文・催事まとめ"
-publishDate = "2020-03-08T07:31:00+09:00"
-lastmod = "2020-03-08T07:31:00+09:00"
+publishDate = "2020-03-08T07:31:00+0900"
+lastmod = "2021-03-02T04:56:00+0900"
 tags = ["Academic", "IEICE"]
 googleAds = true
+aliases = ["/26949c3021a41ff79162e1203fa987b2"]
 +++
 
 ## 1. はじめに
